@@ -12,4 +12,36 @@ public class AnnouncementFragment extends CoreFragment {
     @Override protected int getLayoutResId() {
         return R.layout.announcement_fragment;
     }
+    
+    
+    @OnClick(R.id.etn_url)
+    public void etn_url(){
+        openLink("https://goo.gl/HfH3Qv");
+    }
+
+    @OnClick(R.id.anima_url)
+    public void anima_url(){
+        openLink("https://goo.gl/Vj7xah");
+    }
+
+    @OnClick(R.id.telcel_url)
+    public void telcel_url(){
+        openLink("https://goo.gl/a5wHEf");
+    }
+
+    @OnClick(R.id.startup_url)
+    public void startup_url(){
+        openLink("https://goo.gl/P54YT7");
+    }
+
+    @OnClick(R.id.hospital_url)
+    public void hospital_url(){
+        openLink("https://goo.gl/18c35s");
+    }
+
+    public void openLink(String url){
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 }
