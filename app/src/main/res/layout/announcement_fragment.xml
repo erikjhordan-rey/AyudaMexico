@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="16dp"
+      >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ETN Turistar"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si eres Rescatista o Paramedico y deseas ayudar en las ciudades de México. Cuernavaca o Puebla acude a nuestras Taquillas"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/HfH3Qv"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+      </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Anima Naturalis México‏ "
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Se adjunta lista de veterinarios que están ofreciendo sus servicios de manera GRATUITA tras #sismo. Por favor SÓLO EMERGENCIAS"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/Vj7xah"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Telcel"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telcel ofrece llamadas, sms y datos gratis en TODO MEXICO ante la emergencia por el sismo"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/a5wHEf"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+      </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Startup México"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si los rescatistas levantan la mano, por favor guarda silencio, es la señal para escuchar sobrevivientes. RT #Sismo #FuerzaMéxico"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/P54YT7"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Markinp"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospitales gratis #Temblor #Cdmx #sismo #Fuerzamexico #mexico"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/18c35s"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Emilio Cárdenas 205."
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Fracc. Industrial. Tlalnepantla"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Parque Lira"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Parque Ecológico"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Casa Apoyo al Menor"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Benito Juárez"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Parque Lindbergh"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Condesa"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Carpa Blanca"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Zócalo"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
+
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Estudios Argos"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Tlaneplanta"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_hospitals"
+        android:icon="@drawable/ic_menu_hospitals"
+        android:title="@string/hospitals"/>
+    <item
+        android:id="@+id/nav_hotels"
+        android:icon="@drawable/ic_menu_hostels"
+        android:title="@string/hostels"/>
+    <item
+        android:id="@+id/nav_gathering"
+        android:icon="@drawable/ic_menu_gathering"
+        android:title="@string/gathering_center"/>
+    <item
+        android:id="@+id/nav_phones"
+        android:icon="@drawable/ic_menu_phones"
+        android:title="@string/phones"/>
+
+    <item
+        android:id="@+id/nav_areas"
+        android:icon="@drawable/ic_menu_affected_areas"
+        android:title="@string/affected_areas"/>
+
+    <item
+        android:id="@+id/nav_person_finder"
+        android:icon="@drawable/ic_menu_people_finder"
+        android:title="@string/person_finder"/>
+
+    <item
+        android:id="@+id/nav_wifi"
+        android:icon="@drawable/ic_menu_wifi"
+        android:title="@string/internet_connection"/>
+
+    <item
+        android:id="@+id/nav_announcement"
+        android:icon="@drawable/ic_menu_announcement"
+        android:title="@string/announcement"/>
+
+    <item
+        android:id="@+id/nav_donations"
+        android:icon="@drawable/ic_menu_donations"
+        android:title="@string/donations"/>
+
+  </group>
+
+</menu>

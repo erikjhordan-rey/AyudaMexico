@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="16dp"
+      >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad de México"
+        android:textColor="@color/colorAccent"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Parque México	"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Condesa"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Heriberto Frías 819, frente al CUM"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Del Valle"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Paseo de los Tamarindos 49"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosques de las Lomas"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bosque de Avellanos"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosques de las Lomas"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bosque de Toronjos 39-GH02A"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosques de las Lomas"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cerrada de Bezares 130	"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosques de las Lomas"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Arteaga y Salazar 1267 casa 5"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contadero"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sierra Amantepec 193"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lomas de Chapultepec"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Reforma 223, Eucalipto piso 5"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Virreyes 1110	"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lomas de Chapultepec"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cerrada Bosque de Yuridia 4"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Herradura"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Universidad Anáhuac"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Herradura"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Privada de Acueducto 60"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bosque Real"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rinconada de Jesús, Lomás de Santa Cruz"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naucalpan"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fuente de la Cibeles"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Col. Roma"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ESTADIO OLÍMPICO UNIVERSITARIO	"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Teatro Ángela Peralta"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Polanco"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="ITAM Rio Hondo 1"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="San Angel"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Plaza México"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciudad de los Deportes /Nápoles"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Puebla"
+        android:textColor="@color/colorAccent"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Centro Expositor"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Centro de Convenciones de Pueba"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escuela de Enfermería"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ibero Puebla"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital del Niño Poblano"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universidad Anáhuac Puebla"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dif Puebla"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPAEP"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ONCE comunicación"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casa Aguayo"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bodega Interceramic Puebla"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMAGEN Puebla"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+  </LinearLayout>
+
+</ScrollView>

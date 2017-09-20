@@ -1,0 +1,12 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <item name="ic_menu_hospitals" type="drawable">@drawable/ic_local_hospital</item>
+  <item name="ic_menu_hostels" type="drawable">@drawable/ic_domain</item>
+  <item name="ic_menu_gathering" type="drawable">@drawable/ic_store_mall_directory</item>
+  <item name="ic_menu_phones" type="drawable">@drawable/ic_call</item>
+  <item name="ic_menu_affected_areas" type="drawable">@drawable/ic_location_city</item>
+  <item name="ic_menu_people_finder" type="drawable">@drawable/ic_add_location</item>
+  <item name="ic_menu_wifi" type="drawable">@drawable/ic_signal_wifi_3_bar</item>
+  <item name="ic_menu_announcement" type="drawable">@drawable/ic_chrome_reader</item>
+  <item name="ic_menu_donations" type="drawable">@drawable/ic_attach_money</item>
+  <item name="ic_menu_recommendations" type="drawable">@drawable/ic_wb_incandescent</item>
+</resources>

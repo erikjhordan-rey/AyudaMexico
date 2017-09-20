@@ -1,0 +1,90 @@
+<resources>
+  <string name="app_name">Ayuda México</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_settings">Settings</string>
+
+  <string name="hospitals">Hospitales</string>
+  <string name="hostels">Albergues</string>
+  <string name="gathering_center">Centros de Acopio</string>
+  <string name="phones">Teléfonos</string>
+  <string name="affected_areas">Áreas Afectadas</string>
+  <string name="internet_connection">Internet Gratis</string>
+  <string name="person_finder">Localizador de Personas</string>
+  <string name="announcement">Avisos Importantes</string>
+  <string name="donations">Donaciones</string>
+  <string name="recommendations">Recomendaciones</string>
+
+
+  <string name="hospital_1">Hospital Angeles Pedregal</string>
+  <string name="hospital_2">Hospital ABC de Constituyentes</string>
+  <string name="hospital_3">Hospital Ángeles Lindavista</string>
+  <string name="hospital_4">Hospital ABC de Observatorio</string>
+  <string name="hospital_5">Hospital Siglo XXI</string>
+  <string name="hospital_6">Hospital ABC de Santa Fe</string>
+  <string name="hospital_7">IMSS e ISSTE abiertos a la población!</string>
+  <string name="hospital_8">Hospital Español Polanco</string>
+
+  <string name="hostel_1"></string>
+
+
+  <string name="state_name1">Ciudad de México</string>
+  <string name="phone_numbers_1"> \n <b>Protección Civil:</b> (55)5683-2222 / (55)5277-4177
+    \n <b>Emergencias:</b> 911
+    \n <b>Sistema de aguas:</b> (55)5654-3210
+    \n <b>Fugas:</b> (55)5654-3210
+    \n <b>Locatel:</b> (55)5658-1111
+    \n <b>Bomberos:</b> 911 / (55)5768-3800 / (55)5768-2532
+    \n <b>Cruz Roja:</b> 911 / 065 / (55)5557-5757
+    \n <b>Reporte fallas CFE:</b> 071
+    \n <b>Información IMSS:</b> 01-800-623-2323</string>
+  <string name="state_name2">Estado de México</string>
+  <string name="phone_numbers_2">
+    \n <b>Emergencias:</b> 066
+    \n <b>Cruz roja: </b> 065
+    \n <b>Atención del Gobierno del Estado:</b> 01-800 696-9696
+   </string>
+  <string name="state_name3">Morelos</string>
+
+  <string name="phone_numbers_3">
+    \n <b>Informes Emergencia en Tultepec:</b> 01800 696-9696
+    \n <b>Emergencias:</b> 066
+    \n <b>Seguridad Pública del Estado:</b> (77)7101-1000
+    \n <b>Protección Civil:</b> (77)7100-0515 / (77)7100-0517
+    \n <b>Cruz Roja: </b>(77)7315-3505 / (77)7315-3555
+  </string>
+  <string name="state_name4">Puebla</string>
+
+  <string name="phone_numbers_4">
+    \n <b>Cruz Roja:</b> (22)213-7700
+    \n <b>Locatel:</b> (22)211-7800
+    \n <b>Bomberos:</b> (22)245-8001</string>
+
+  <string name="provider_infinitum_cdmx">Infinitum movil en CDMX</string>
+  <string name="provider_infinitum">Infinitum</string>
+  <string name="provider_izzi">Izzi</string>
+  <string name="infinitum_network_1">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> 6865543305  \n <b>Password:</b> 21100 </string>
+  <string name="infinitum_network_2">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> 2299819515  \n <b>Password:</b> 91727 </string>
+  <string name="infinitum_network_3">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> toby97	  \n <b>Password:</b> 91001700 </string>
+  <string name="infinitum_network_4">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Meliverdia@prodigy.net.mx
+	  \n <b>Password:</b>1234 </string>
+  <string name="infinitum_network_5">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcoac0044 </string>
+  <string name="infinitum_network_6">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx7222153423	  \n <b>Password:</b> lalo123 </string>
+  <string name="izzi_1">\n <b>Red:</b> Izzi \n  <b>User:</b> dvskateboards@hotmail.com
+	  \n <b>Password:</b> cablevision </string>
+  <string name="infinitum_network_7">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> cafeteria	  \n <b>Password:</b> cafeteria </string>
+  <string name="infinitum_network_8">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> etc2004	  \n <b>Password:</b> calabaza </string>
+  <string name="infinitum_network_9">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Tmx8032371	  \n <b>Password:</b> 8032371 </string>
+  <string name="infinitum_network_10">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> usolis	  \n <b>Password:</b> ssm </string>
+  <string name="infinitum_network_11">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> rojogomez	  \n <b>Password:</b> rojogomez </string>
+  <string name="izzi_2">\n <b>Red:</b> Izzi \n <b>User:</b> flhpaco24@yahoo.com
+	  \n <b>Password:</b> Paco1985 </string>
+  <string name="infinitum_network_12">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> hgvg	  \n <b>Password:</b> 2333 </string>
+  <string name="izzi_3">\n <b>Red:</b> Izzi \n <b>User:</b> estradagarrido2787
+	  \n <b>Password:</b> mexico17 </string>
+  <string name="infinitum_network_13">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcocac0044</string>
+  <string name="infinitum_network_14">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx9996886996	  \n <b>Password:</b> password</string>
+
+</resources>

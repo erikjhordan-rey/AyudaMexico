@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="16dp"
+      >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/provider_infinitum_cdmx"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_1"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/provider_infinitum"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_1"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_2"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_3"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_4"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_5"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_6"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_7"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_8"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_9"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_10"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_11"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_12"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_13"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infinitum_network_14"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/provider_izzi"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/izzi_1"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/izzi_2"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/izzi_3"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+  </LinearLayout>
+
+</ScrollView>
