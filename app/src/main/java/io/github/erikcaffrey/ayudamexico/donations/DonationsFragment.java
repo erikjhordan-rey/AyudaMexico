@@ -25,11 +25,11 @@ public class DonationsFragment extends CoreFragment {
     }
 
 
-
     @OnClick(R.id.card_topos_mx_url)
     public void card_topos_mx_url(){
         openLink("http://www.topos.mx/");
     }
+
 
     @OnClick(R.id.topos_mx_url)
     public void topos_mx_url(){
