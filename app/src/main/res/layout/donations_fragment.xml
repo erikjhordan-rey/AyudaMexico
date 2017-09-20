@@ -13,6 +13,7 @@
       >
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_topos_mx_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
@@ -80,6 +81,7 @@
 
 
         <TextView
+            android:id="@+id/topos_mx_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="http://www.topos.mx/"
@@ -89,6 +91,7 @@
             />
 
         <TextView
+            android:id="@+id/topos_red_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="http://topos.red/"
@@ -102,6 +105,7 @@
 
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cruz_roja_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -125,6 +129,7 @@
             />
 
         <TextView
+            android:id="@+id/cruz_roja_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="https://cruzrojadonaciones.org/"
@@ -139,6 +144,7 @@
 
 
     <android.support.v7.widget.CardView
+        android:id="@+id/comoayudar_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -162,6 +168,7 @@
             />
 
         <TextView
+            android:id="@+id/text_comoayudar_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="A continuación encontrarás diferentes organizaciones, centros de acopio o formas de ayudar a los afectados o rescatistas del sismo."
@@ -171,6 +178,7 @@
             />
 
         <TextView
+            android:id="@+id/comoayudar_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="http://comoayudar.mx/"
@@ -185,6 +193,7 @@
 
 
     <android.support.v7.widget.CardView
+        android:id="@+id/amzn_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -209,6 +218,7 @@
             />
 
         <TextView
+            android:id="@+id/text_amzn_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ante el desastre derivado de los sismos del 7 y 19 de septiembre en la República Mexicana, en Cruz Roja Mexicana necesitamos de tu ayuda para apoyar a las personas afectadas.
@@ -219,6 +229,7 @@ Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entre
             />
 
         <TextView
+            android:id="@+id/amzn_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="http://amzn.to/2yq5N8y"
@@ -231,6 +242,7 @@ Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entre
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_slim_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -255,6 +267,7 @@ Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entre
             />
 
         <TextView
+            android:id="@+id/text_slim_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Debido a los graves daños provocados por los recientes sismos que impactaron a México, Fundación Carlos Slim, Fundación Telmex - Telcel, así como Telcel y Telmex ampliaron su campaña para aportar $5 pesos por cada $1 que la sociedad done. Los recursos que se capten se destinarán a la atención de la emergencia, así como en la reconstrucción de escuelas y centros de salud."
@@ -264,6 +277,7 @@ Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entre
             />
 
         <TextView
+            android:id="@+id/slim_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="https://goo.gl/FwiHg4"
