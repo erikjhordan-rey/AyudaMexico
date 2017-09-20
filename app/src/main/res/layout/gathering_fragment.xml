@@ -48,8 +48,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Recuerda que cualquier tipo de donación será de gran ayuda."
         android:layout_marginTop="16dp"
+        android:text="Recuerda que cualquier tipo de donación será de gran ayuda."
         android:textColor="@android:color/secondary_text_light"
         android:textIsSelectable="true"
         android:textSize="16sp"
@@ -440,6 +440,235 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Mexsi Bocu"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calle Durango 359, Colonia Roma"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pasillo de Humo"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Av. Nuevo León 107, Colonia Condesa"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bonito Pop Food"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Av. Nuevo León 103, Colonia Condesa"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Restaurante Garum "
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masaryk 513, Polanco"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Raíz"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schiller 331, Polanco"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hookah Lounge"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campeche 284, Condesa. Desde las 12 pm"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Shaktea"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Culiacán 52, Condesa. 11 am."
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Broka Bistrot"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zacatecas 126, Colonia Roma."
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Mercado Roma"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Queretaro 225, Colonia Roma"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Café de Raíz"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merida 132, Roma."
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Toks"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En Miramontes y Av. de las Bombas, Genova 37,
+        Vallarta e I. Ramirez, Soriana de Taxqueña, San Antonio Abad y Chavero, Colegio Rebsamen,
+        Puebla y Medellin, Bretaña col. Portales Escuela primaria Montesquieu, Eje 2 sur y Amsterdam,
+        Calzada del Hueso y Rancho del Arco, Lomas Estrella, Iztapalapa, Guadalupe I Ramirez y 16 de septiembre,
+        Santa Ana y Ejido, Alvaro Obregón y Valladolid, col. Roma, Gabriel Mancera y Escocia, Acoxpa y Trancas,
+        Álvaro Obregón 286, Baja California y Torreón, Amores y Viaducto, Puentes de Tec de Monterrey, Periférico Sur"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Puebla"
         android:textColor="@color/colorAccent"
         android:textIsSelectable="true"
