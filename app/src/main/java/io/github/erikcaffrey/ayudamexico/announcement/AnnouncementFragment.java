@@ -36,6 +36,22 @@ public class AnnouncementFragment extends CoreFragment {
         openLink("https://goo.gl/18c35s");
     }
 
+    @OnClick({ R.id.card_risky_url, R.id.risky_url }) public void buildings_url() {
+        openLink("https://goo.gl/8aJwqB");
+    }
+
+    @OnClick({ R.id.card_ado_url, R.id.ado_url }) public void ado_url() {
+        openLink("https://goo.gl/y5bd5c");
+    }
+
+    @OnClick({ R.id.card_aero_url, R.id.aero_url }) public void aero_url() {
+        openLink("https://goo.gl/HBCQMN");
+    }
+
+    @OnClick({ R.id.card_vans_url, R.id.vans_url }) public void vans_url() {
+        openLink("https://goo.gl/MryZd6");
+    }
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));

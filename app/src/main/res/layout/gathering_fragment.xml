@@ -37,18 +37,30 @@
         android:id="@+id/gathering_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:text="https://goo.gl/TrN68T"
         android:textColor="@color/colorAccent"
         android:textIsSelectable="true"
-        android:layout_marginTop="4dp"
         android:textSize="16sp"
         />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ciudad de México"
+        android:text="Recuerda que cualquier tipo de donación será de gran ayuda."
         android:layout_marginTop="16dp"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ciudad de México"
         android:textColor="@color/colorAccent"
         android:textIsSelectable="true"
         android:textSize="24sp"
@@ -586,6 +598,37 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Las Quintas 15, Las Quintas, 62450 Cuernavaca, Mor."
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CENTRO DE ACOPIO EN CUERNAVACA MORELOS"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colegio Lancaster de Cuernavaca Francisco González Bocanegra #1, Col. Miguel Hidalgo CP.62040 Teléfono - 777 310 0899 / 3 18 84 90"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estaremos recolectando víveres en el Colegio Lancaster de Cuernavaca sección preparatoria.
+Junto con paramédicos llevaremos a las partes más necesitadas de la zona sur de Morelos, ya que ella cuenta con el equipo especializado para ayudar.
+"
         android:textColor="@android:color/secondary_text_light"
         android:textIsSelectable="true"
         android:textSize="16sp"
