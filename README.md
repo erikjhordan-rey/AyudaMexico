@@ -1,10 +1,10 @@
-# AyudaMexico
+# Ayuda México
 Respuesta rápida ante el terremoto de la CDMX http://bit.ly/TerremotoMX
 
 
 ![bandera-en-pie](https://user-images.githubusercontent.com/385670/30645087-3ddb7eb6-9dda-11e7-8ecd-17424b852299.jpg)
 
-# TerremotoMX
+# Terremoto en México
 
 En septiembre 2017 sismos afectaron a diferentes partes de México.
 
