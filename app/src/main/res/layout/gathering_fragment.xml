@@ -72,6 +72,85 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:text="Google México	"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montes Urales 445 (necesitamos motos y bicis para llegar a las zonas afectadas.)"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Centro Histórico"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zocalo"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Congreso de la Unión"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zócalo, en la carpa blanca de Segob"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Contadero"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arteaga y Salazar 1267 casa 5"
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="Parque México	"
         android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
