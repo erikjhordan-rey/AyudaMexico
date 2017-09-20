@@ -942,6 +942,39 @@ Junto con paramédicos llevaremos a las partes más necesitadas de la zona sur d
         android:textSize="16sp"
         />
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CENTROS DE ACOPIO EN MORELOS"
+        android:textColor="@android:color/primary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En el siguiente link puedes encontrar los centros habilitados."
+        android:textColor="@android:color/secondary_text_light"
+        android:textIsSelectable="true"
+        android:textSize="16sp"
+        />
+
+
+    <TextView
+        android:id="@+id/morelos_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver más -> https://goo.gl/opR3Vg"
+        android:textColor="@color/colorAccent"
+        android:textIsSelectable="true"
+        android:textSize="12sp"
+        />
+
+
+
   </LinearLayout>
 
 </ScrollView>

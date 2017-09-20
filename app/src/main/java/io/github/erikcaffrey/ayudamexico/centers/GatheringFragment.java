@@ -20,6 +20,10 @@ public class GatheringFragment extends CoreFragment {
         openLink("https://goo.gl/TrN68T");
     }
 
+    @OnClick(R.id.morelos_url ) public void morelos_url() {
+        openLink("https://goo.gl/opR3Vg");
+    }
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
