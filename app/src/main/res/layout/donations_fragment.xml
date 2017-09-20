@@ -230,5 +230,50 @@ Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entre
 
     </android.support.v7.widget.CardView>
 
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Fundación Carlos Slim"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Debido a los graves daños provocados por los recientes sismos que impactaron a México, Fundación Carlos Slim, Fundación Telmex - Telcel, así como Telcel y Telmex ampliaron su campaña para aportar $5 pesos por cada $1 que la sociedad done. Los recursos que se capten se destinarán a la atención de la emergencia, así como en la reconstrucción de escuelas y centros de salud."
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://goo.gl/FwiHg4"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+      </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
   </LinearLayout>
 </ScrollView>

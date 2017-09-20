@@ -128,4 +128,24 @@
       android:textIsSelectable="true"
       android:textSize="16sp"
       />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Centro Universitario México A.C"
+      android:textColor="@android:color/primary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="22sp"
+      android:textStyle="bold"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Calle Concepción Beistegui, Narvarte Poniente, 03020 Ciudad de México, CDMX"
+      android:textColor="@android:color/secondary_text_light"
+      android:textIsSelectable="true"
+      android:textSize="16sp"
+      />
 </LinearLayout>
