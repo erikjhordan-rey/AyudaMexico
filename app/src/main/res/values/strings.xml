@@ -112,5 +112,7 @@
   <string name="link_gmaps">Link_de_GMaps</string>
   <string name="detail">DETALLE</string>
   <string name="date_update">FECHA_DE_ACTUALIZACION</string>
+    <string name="help_recive">RECIBEN</string>
+  <string name="more_info">MAS INFO</string>
 
 </resources>

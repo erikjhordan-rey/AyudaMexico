@@ -1,6 +1,7 @@
 package io.github.erikcaffrey.ayudamexico.home;
 
 import android.support.v4.app.Fragment;
+
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
@@ -10,7 +11,7 @@ import io.github.erikcaffrey.ayudamexico.donations.DonationsFragment;
 import io.github.erikcaffrey.ayudamexico.faqs.QuestionsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
 import io.github.erikcaffrey.ayudamexico.help.ui.HelpFragment;
-import io.github.erikcaffrey.ayudamexico.hospitals.HospitalsFragment;
+import io.github.erikcaffrey.ayudamexico.hospitals.ui.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;
 import io.github.erikcaffrey.ayudamexico.phones.PhoneListsFragment;
