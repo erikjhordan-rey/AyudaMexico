@@ -24,7 +24,7 @@ public class AreasFragment extends CoreFragment {
 
     @Override protected void initFragment(@NonNull View view) {
         super.initFragment(view);
-        viewPager.setAdapter(new AreasFragmentPagerAdapter(getActivitySupportFragmentManager()));
+        viewPager.setAdapter(new AreasFragmentPagerAdapter(getChildFragmentManager()));
         tabs.setupWithViewPager(viewPager);
     }
 
