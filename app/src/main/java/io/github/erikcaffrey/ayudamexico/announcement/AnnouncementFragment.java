@@ -80,6 +80,10 @@ public class AnnouncementFragment extends CoreFragment {
         openLink("https://goo.gl/GWg9WX");
     }
 
+    @OnClick({ R.id.card_sable_url, R.id.sable_url }) public void sable_url() {
+        openLink("https://goo.gl/5USvmH");
+    }
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
