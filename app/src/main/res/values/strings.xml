@@ -140,4 +140,12 @@
     \n - Revisa los lugares afectados cercanos a tu hogar, y trata de trasladarte lo menos posible.
     \n - Revisa el mapa de necesidades.
   </string>
+    <string name="help_required">AYUDA_REQUERIDA</string>
+  <string name="help_no_required">QUE_NO_SE_REQUIERE</string>
+  <string name="direction">DIRECCION</string>
+  <string name="zone">ZONA</string>
+  <string name="link_gmaps">Link_de_GMaps</string>
+  <string name="detail">DETALLE</string>
+  <string name="date_update">FECHA_DE_ACTUALIZACION</string>
+
 </resources>
