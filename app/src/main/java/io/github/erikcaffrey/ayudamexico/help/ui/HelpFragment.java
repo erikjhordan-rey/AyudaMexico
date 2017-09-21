@@ -1,19 +1,34 @@
 package io.github.erikcaffrey.ayudamexico.help.ui;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
+
+import java.util.List;
+
+import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
 import io.github.erikcaffrey.ayudamexico.help.model.Help;
 import io.github.erikcaffrey.ayudamexico.help.model.HelpClient;
 import io.github.erikcaffrey.ayudamexico.help.model.HelpInteractor;
 import io.github.erikcaffrey.ayudamexico.help.presenter.HelpPresenter;
-import java.util.List;
+import io.github.erikcaffrey.ayudamexico.help.ui.adapter.HelpAdapter;
 
 public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
+
+    @BindView(R.id.recycler_help)
+    RecyclerView recycler_help;
 
     public static HelpFragment newInstance() {
         return new HelpFragment();
     }
+    private HelpAdapter adapter;
+    private HelpPresenter helpPresenter;
+    private GridLayoutManager lLayout;
+
 
     private HelpPresenter helpPresenter;
 
@@ -28,12 +43,25 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         helpPresenter = new HelpPresenter(helpInteractor);
         helpPresenter.setUi(this);
         helpPresenter.loadHelpList();
+        recycler_help = (RecyclerView) this.getView().findViewById(R.id.recycler_help);
+        initializeAdapter();
+        initializeRecyclerView();
+    }
+
+    private void initializeAdapter() {
+        adapter = new HelpAdapter(helpPresenter);
+    }
+
+
+    private void initializeRecyclerView() {
+        lLayout = new GridLayoutManager(getActivity(), 1);
+        recycler_help.setLayoutManager(lLayout);
+        recycler_help.setAdapter(adapter);
+        //recycler_gallery.invalidate();
     }
 
     @Override public void showHelpList(List<Help> helpList) {
-        for (Help help : helpList) {
-            System.out.println(help.getLevelOfUrgency());
-        }
+            adapter.setHelpList(helpList);
     }
 
     @Override public void showEmptyMessage() {
@@ -42,6 +70,13 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
 
     @Override public void showErrorMessage() {
         Toast.makeText(getContext(), "Ha Ocurrido un error", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void showDetails(Help help) {
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(help.getLinkMaps()));
+        startActivity(i);
     }
 
     @Override public void hideLoading() {
