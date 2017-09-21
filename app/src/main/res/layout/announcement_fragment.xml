@@ -69,6 +69,102 @@
 
     </android.support.v7.widget.CardView>
 
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_sismo_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Serivicio Simológico Nacional"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recuerda manterte informado acerca de los sismos."
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/sismo_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leer más > https://goo.gl/Zfxcas"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_classes_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sep Suspende clases toda la semana en 10 entidades del País."
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No habra clases toda la semana en escuelas ubicadas en Ciudad de México, Puebla, Morelos, Oaxaca, Chiapas, Guerrero, Tlaxcala, Estado de México, Hidalgo y Michoacán"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/classes_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leer más > https://goo.gl/Q6hHSQ"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
     <android.support.v7.widget.CardView
         android:id="@+id/card_modelo_url"
         android:layout_width="match_parent"

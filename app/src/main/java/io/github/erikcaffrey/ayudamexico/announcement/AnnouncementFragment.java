@@ -68,6 +68,14 @@ public class AnnouncementFragment extends CoreFragment {
         openLink("https://goo.gl/af31WD");
     }
 
+    @OnClick({ R.id.card_sismo_url, R.id.sismo_url }) public void sismo_url() {
+        openLink("https://goo.gl/Zfxcas");
+    }
+
+    @OnClick({ R.id.card_classes_url, R.id.classes_url }) public void classes_url() {
+        openLink("https://goo.gl/Q6hHSQ");
+    }
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
