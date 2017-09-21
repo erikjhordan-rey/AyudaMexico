@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
@@ -14,8 +16,10 @@ import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
 
 public abstract class PhonesFragment extends CoreFragment {
 
-    @BindView(R.id.list_phones_mexico_city)
+    @BindView(R.id.list_phones)
     RecyclerView listPhones;
+
+    PhonesAdapter adapter;
 
     @Override protected int getLayoutResId() {
         return R.layout.phones_fragment;
@@ -25,9 +29,14 @@ public abstract class PhonesFragment extends CoreFragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         listPhones.setLayoutManager(new LinearLayoutManager(getContext()));
-        PhonesAdapter adapter = new PhonesAdapter();
-        adapter.setItems(getPhones());
+        adapter = new PhonesAdapter();
         listPhones.setAdapter(adapter);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        adapter.setItems(getPhones());
     }
 
     abstract ArrayList<Phone> getPhones();
