@@ -26,6 +26,11 @@
         android:title="@string/affected_areas"/>
 
     <item
+        android:id="@+id/nav_real_time"
+        android:icon="@drawable/ic_menu_real_time"
+        android:title="@string/real_time"/>
+
+    <item
         android:id="@+id/nav_person_finder"
         android:icon="@drawable/ic_menu_people_finder"
         android:title="@string/person_finder"/>
