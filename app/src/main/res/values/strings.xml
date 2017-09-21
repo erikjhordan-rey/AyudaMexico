@@ -12,9 +12,7 @@
   <string name="gathering_center">Centros de Acopio</string>
   <string name="help_cdmx">Ayuda Sismo CDMX</string>
   <string name="phones">Teléfonos</string>
-  <string name="affected_areas">Areas Afectadas CDMX</string>
-  <string name="affected_areas_2">Areas Afectadas Morelos</string>
-  <string name="affected_areas_3">Areas Afectadas Puebla</string>
+  <string name="affected_areas">Areas Afectadas</string>
   <string name="real_time">Tiempo Real CDMX</string>
   <string name="person_finder">Localizador de Personas</string>
   <string name="announcement">Avisos Importantes</string>
@@ -107,7 +105,7 @@
     \n - Revisa los lugares afectados cercanos a tu hogar, y trata de trasladarte lo menos posible.
     \n - Revisa el mapa de necesidades.
   </string>
-    <string name="help_required">AYUDA_REQUERIDA</string>
+  <string name="help_required">AYUDA_REQUERIDA</string>
   <string name="help_no_required">QUE_NO_SE_REQUIERE</string>
   <string name="direction">DIRECCION</string>
   <string name="zone">ZONA</string>

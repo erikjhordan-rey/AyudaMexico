@@ -10,14 +10,7 @@ import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
 
-public class AreasPueblaFragment extends CoreFragment {
-
-    public static AreasPueblaFragment newInstance() {
-        return new AreasPueblaFragment();
-    }
-
-    private static final String AFFECTED_AREAS_URL =
-        "https://www.google.com/maps/d/u/0/viewer?mid=1hnxNOTm324Zi_NObwy5t9HvisTQ&ll=19.20436325558374%2C-98.69349857578112&z=10";
+public abstract class MapFragment extends CoreFragment {
 
     @BindView(R.id.web_view_map) WebView affectedAreas;
     @BindView(R.id.progress) ProgressBar progress;
@@ -32,7 +25,7 @@ public class AreasPueblaFragment extends CoreFragment {
     }
 
     private void initWebViewPeopleFinder() {
-        affectedAreas.loadUrl(AFFECTED_AREAS_URL);
+        affectedAreas.loadUrl(getAffectedAreasUrl());
         WebSettings webSettings = affectedAreas.getSettings();
         webSettings.setJavaScriptEnabled(true);
         affectedAreas.setWebViewClient(new WebViewClient() {
@@ -49,10 +42,5 @@ public class AreasPueblaFragment extends CoreFragment {
         });
     }
 
-    @Override public void onDestroy() {
-        if (affectedAreas != null) {
-            affectedAreas.stopLoading();
-        }
-        super.onDestroy();
-    }
+    abstract String getAffectedAreasUrl();
 }
