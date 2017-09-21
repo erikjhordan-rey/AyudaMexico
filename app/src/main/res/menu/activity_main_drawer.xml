@@ -21,6 +21,11 @@
         android:id="@+id/nav_gathering"
         android:icon="@drawable/ic_menu_gathering"
         android:title="@string/gathering_center"/>
+
+    <item
+        android:id="@+id/nav_help_cdmx"
+        android:icon="@drawable/ic_menu_help_cdmx"
+        android:title="@string/help_cdmx"/>
     <item
         android:id="@+id/nav_phones"
         android:icon="@drawable/ic_menu_phones"
