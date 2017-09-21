@@ -32,41 +32,6 @@
   <string name="hospital_7">IMSS e ISSTE abiertos a la población!</string>
   <string name="hospital_8">Hospital Español Polanco</string>
 
-  <string name="hostel_1"></string>
-
-
-  <string name="state_name1">Ciudad de México</string>
-  <string name="phone_numbers_1"> \n <b>Protección Civil:</b> (55)5683-2222 / (55)5277-4177
-    \n <b>Emergencias:</b> 911
-    \n <b>Sistema de aguas:</b> (55)5654-3210
-    \n <b>Fugas:</b> (55)5654-3210
-    \n <b>Locatel:</b> (55)5658-1111
-    \n <b>Bomberos:</b> 911 / (55)5768-3800 / (55)5768-2532
-    \n <b>Cruz Roja:</b> 911 / 065 / (55)5557-5757
-    \n <b>Reporte fallas CFE:</b> 071
-    \n <b>Información IMSS:</b> 01-800-623-2323</string>
-  <string name="state_name2">Estado de México</string>
-  <string name="phone_numbers_2">
-    \n <b>Emergencias:</b> 066
-    \n <b>Cruz roja: </b> 065
-    \n <b>Atención del Gobierno del Estado:</b> 01-800 696-9696
-   </string>
-  <string name="state_name3">Morelos</string>
-
-  <string name="phone_numbers_3">
-    \n <b>Informes Emergencia en Tultepec:</b> 01800 696-9696
-    \n <b>Emergencias:</b> 066
-    \n <b>Seguridad Pública del Estado:</b> (77)7101-1000
-    \n <b>Protección Civil:</b> (77)7100-0515 / (77)7100-0517
-    \n <b>Cruz Roja: </b>(77)7315-3505 / (77)7315-3555
-  </string>
-  <string name="state_name4">Puebla</string>
-
-  <string name="phone_numbers_4">
-    \n <b>Cruz Roja:</b> (22)213-7700
-    \n <b>Locatel:</b> (22)211-7800
-    \n <b>Bomberos:</b> (22)245-8001</string>
-
   <string name="provider_infinitum_cdmx">Infinitum movil en CDMX</string>
   <string name="provider_infinitum">Infinitum</string>
   <string name="provider_izzi">Izzi</string>
