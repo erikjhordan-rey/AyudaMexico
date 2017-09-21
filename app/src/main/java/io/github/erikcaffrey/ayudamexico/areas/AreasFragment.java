@@ -17,7 +17,7 @@ public class AreasFragment extends CoreFragment {
     }
 
     private static final String AFFECTED_AREAS_URL =
-        "https://www.google.com/maps/d/u/0/viewer?mid=1PwJrCIjz5PNfKAFrY-EX-iEkWH8&ll=19.309885668020293%2C-98.73667895&z=9";
+        "https://www.google.com/maps/d/u/0/viewer?mid=13B_gbt3e5RWk_6xQoQ15xxhGOFs&ll=19.339332910595843%2C-99.07649944863283&z=11";
 
     @BindView(R.id.web_view_affected_areas) WebView affectedAreas;
     @BindView(R.id.progress) ProgressBar progress;
