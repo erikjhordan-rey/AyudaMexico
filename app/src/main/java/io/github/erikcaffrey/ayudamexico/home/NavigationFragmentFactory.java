@@ -9,7 +9,7 @@ import io.github.erikcaffrey.ayudamexico.centers.GatheringFragment;
 import io.github.erikcaffrey.ayudamexico.donations.DonationsFragment;
 import io.github.erikcaffrey.ayudamexico.faqs.QuestionsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
-import io.github.erikcaffrey.ayudamexico.help.HelpFragment;
+import io.github.erikcaffrey.ayudamexico.help.ui.HelpFragment;
 import io.github.erikcaffrey.ayudamexico.hospitals.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;

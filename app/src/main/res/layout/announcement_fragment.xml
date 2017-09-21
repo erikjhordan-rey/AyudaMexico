@@ -286,7 +286,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="En compromiso con nuestro país estaremos enviando alimentos a los escuadrones que se encuentran en labores de rescate. Hoy y siempre con Las Alas Abiertas. Fuerza México."
+            android:text="Les informamos que nuestras sucursales de Cd. Juárez y Chihuahua Palmas estarán funcionando como Centros de Acopio. Siempre con Las Alas Abiertas. Fuerza México."
             android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
@@ -296,7 +296,7 @@
             android:id="@+id/wings_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Leer más > https://goo.gl/maiFbL"
+            android:text="Leer más > https://goo.gl/1JWiks"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
             android:textSize="12sp"

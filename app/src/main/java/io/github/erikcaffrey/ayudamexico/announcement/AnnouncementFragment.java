@@ -57,7 +57,7 @@ public class AnnouncementFragment extends CoreFragment {
     }
 
     @OnClick({ R.id.card_wings_url, R.id.wings_url }) public void wings_url() {
-        openLink("https://goo.gl/maiFbL");
+        openLink("https://goo.gl/1JWiks");
     }
 
     @OnClick({ R.id.card_list_url, R.id.list_url }) public void list_url() {
