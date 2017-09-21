@@ -9,9 +9,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import java.util.List;
-
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
@@ -20,11 +17,12 @@ import io.github.erikcaffrey.ayudamexico.help.model.HelpClient;
 import io.github.erikcaffrey.ayudamexico.help.model.HelpInteractor;
 import io.github.erikcaffrey.ayudamexico.help.presenter.HelpPresenter;
 import io.github.erikcaffrey.ayudamexico.help.ui.adapter.HelpAdapter;
+import java.util.List;
 
 public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
 
     @BindView(R.id.recycler_help) RecyclerView recycler_help;
-    @BindView(R.id.activity_main_swipe_refresh_layout)  SwipeRefreshLayout swipeRefreshLayout;
+    @BindView(R.id.activity_main_swipe_refresh_layout) SwipeRefreshLayout swipeRefreshLayout;
     @BindView(R.id.progress_help) ProgressBar progress_help;
 
     public static HelpFragment newInstance() {
@@ -38,6 +36,14 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         return R.layout.help_fragment;
     }
 
+    @Override protected void initPresenter() {
+        super.initPresenter();
+        HelpClient helpClient = new HelpClient();
+        HelpInteractor helpInteractor = new HelpInteractor(helpClient);
+        helpPresenter = new HelpPresenter(helpInteractor);
+        helpPresenter.setUi(this);
+    }
+
     @Override protected void initFragment(@NonNull View view) {
         super.initFragment(view);
         initializeAdapter();
@@ -46,31 +52,7 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         loadData();
     }
 
-    private void initSwipe() {
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                refreshContent();
-            }
-        });
-    }
-
-    private void refreshContent() {
-        loadData();
-        swipeRefreshLayout.setRefreshing(false);
-    }
-
-    @Override protected void initPresenter() {
-        super.initPresenter();
-        HelpClient helpClient = new HelpClient();
-        HelpInteractor helpInteractor = new HelpInteractor(helpClient);
-        helpPresenter = new HelpPresenter(helpInteractor);
-
-    }
-
-    public void loadData(){
-
-        helpPresenter.setUi(this);
+    public void loadData() {
         helpPresenter.loadHelpList();
     }
 
@@ -82,6 +64,19 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         GridLayoutManager lLayout = new GridLayoutManager(getActivity(), 1);
         recycler_help.setLayoutManager(lLayout);
         recycler_help.setAdapter(adapter);
+    }
+
+    private void initSwipe() {
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override public void onRefresh() {
+                refreshContent();
+            }
+        });
+    }
+
+    private void refreshContent() {
+        loadData();
+        swipeRefreshLayout.setRefreshing(false);
     }
 
     @Override public void showHelpList(List<Help> helpList) {
