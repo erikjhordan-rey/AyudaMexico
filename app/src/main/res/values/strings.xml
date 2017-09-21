@@ -7,6 +7,7 @@
   <string name="action_settings">Settings</string>
 
   <string name="hospitals">Hospitales</string>
+  <string name="blood_bank">Bancos de Sangre</string>
   <string name="hostels">Albergues</string>
   <string name="gathering_center">Centros de Acopio</string>
   <string name="phones">Teléfonos</string>
@@ -86,5 +87,31 @@
 	  \n <b>Password:</b> mexico17 </string>
   <string name="infinitum_network_13">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcocac0044</string>
   <string name="infinitum_network_14">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx9996886996	  \n <b>Password:</b> password</string>
+
+
+  <string name="requirements_blood_bank">
+    \n - Identificación oficial(IFE/INE, cartilla militar, pasaporte, etc.)
+    \n - Edad entre 18 y 50 años
+    \n - Peso mínimo de 50kg
+    \n - Estar hidratado
+    \n - Ayuno mayor a 4h y menor a 12h
+    \n - No estar embarazada o lactando
+    \n - No haber ingerido bebidas alcoholicas en las últimas 48h
+    \n - No tener enfermedades crónicas
+    \n - No haber utilizado medicamentos en las últimas 48h
+    \n - No haberse vacunado en los últimos 30 días</string>
+
+
+  <string name="hospitals_blood_bank">
+    \n - Hospital Ángeles Pedregal
+    \n - Hospital Ángeles Lindavista
+    \n - Hospital ABC Constituyentes
+    \n - Hospital ABC Observatorio
+    \n - Hospital Siglo XXI
+    \n - Hospital ABC de Santa Fe
+    \n - Hospitales del IMSS
+    \n - Hospitales del ISSSTE
+  </string>
+
 
 </resources>

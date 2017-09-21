@@ -7,6 +7,12 @@
         android:id="@+id/nav_hospitals"
         android:icon="@drawable/ic_menu_hospitals"
         android:title="@string/hospitals"/>
+
+    <item
+        android:id="@+id/nav_blood_bank"
+        android:icon="@drawable/ic_menu_blood_bank"
+        android:title="@string/blood_bank"/>
+
     <item
         android:id="@+id/nav_hotels"
         android:icon="@drawable/ic_menu_hostels"

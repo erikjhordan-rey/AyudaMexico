@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
+import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
 import io.github.erikcaffrey.ayudamexico.centers.GatheringFragment;
 import io.github.erikcaffrey.ayudamexico.donations.DonationsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
@@ -23,6 +24,10 @@ class NavigationFragmentFactory {
             case R.id.nav_hospitals:
                 fragment = HospitalsFragment.newInstance();
                 title = R.string.hospitals;
+                break;
+            case R.id.nav_blood_bank:
+                fragment = BloodBankFragment.newInstance();
+                title = R.string.blood_bank;
                 break;
             case R.id.nav_hotels:
                 fragment = HostelsFragment.newInstance();

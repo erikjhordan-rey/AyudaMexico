@@ -1,5 +1,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
   <item name="ic_menu_hospitals" type="drawable">@drawable/ic_local_hospital</item>
+  <item name="ic_menu_blood_bank" type="drawable">@drawable/ic_favorite</item>
   <item name="ic_menu_hostels" type="drawable">@drawable/ic_domain</item>
   <item name="ic_menu_gathering" type="drawable">@drawable/ic_store_mall_directory</item>
   <item name="ic_menu_phones" type="drawable">@drawable/ic_call</item>
