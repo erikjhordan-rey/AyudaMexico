@@ -76,6 +76,10 @@ public class AnnouncementFragment extends CoreFragment {
         openLink("https://goo.gl/Q6hHSQ");
     }
 
+    @OnClick({ R.id.card_pisa_url, R.id.pisa_url }) public void pisa_url() {
+        openLink("https://goo.gl/GWg9WX");
+    }
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));

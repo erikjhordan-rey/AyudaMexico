@@ -13,9 +13,56 @@
       >
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_pisa_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="8dp"
+          >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PiSA Farmacéutica "
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#PiSAFarmacéutica apoyará gratuitamente a todos los centros de acopio que requieran medicamentos e insumos médicos para atender a todas las personas lesionadas de #CDMX #Morelos y #Puebla ¡Ayúdanos a difundir! #FuerzaMéxico #UnidosSomosMás #sismo #PiSAayuda"
+            android:textColor="@android:color/secondary_text_light"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/pisa_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leer más > https://goo.gl/GWg9WX"
+            android:textColor="@color/colorAccent"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            />
+
+      </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
         android:id="@+id/card_list_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         >
 
       <LinearLayout
@@ -88,7 +135,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Serivicio Simológico Nacional"
+            android:text="Servicio Simológico Nacional"
             android:textColor="@android:color/primary_text_light"
             android:textSize="22sp"
             />

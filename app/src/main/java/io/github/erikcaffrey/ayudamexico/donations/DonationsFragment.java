@@ -60,6 +60,13 @@ public class DonationsFragment extends CoreFragment {
         openLink("https://goo.gl/SY2D23");
     }
 
+    @OnClick(R.id.impact_url) public void impact_url() {
+        openLink("https://goo.gl/GurVUX");
+    }
+
+
+
+
     public void openLink(String url) {
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
