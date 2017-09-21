@@ -15,7 +15,7 @@ import io.github.erikcaffrey.ayudamexico.help.ui.HelpFragment;
 import io.github.erikcaffrey.ayudamexico.hospitals.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;
-import io.github.erikcaffrey.ayudamexico.phones.PhonesFragment;
+import io.github.erikcaffrey.ayudamexico.phones.PhoneListsFragment;
 import io.github.erikcaffrey.ayudamexico.realtime.RealTimeFragment;
 
 class NavigationFragmentFactory {
@@ -46,7 +46,7 @@ class NavigationFragmentFactory {
                 title = R.string.help_cdmx;
                 break;
             case R.id.nav_phones:
-                fragment = PhonesFragment.newInstance();
+                fragment = PhoneListsFragment.newInstance();
                 title = R.string.phones;
                 break;
             case R.id.nav_areas:
