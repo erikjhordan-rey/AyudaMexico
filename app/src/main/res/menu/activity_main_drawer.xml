@@ -42,11 +42,6 @@
         android:title="@string/person_finder"/>
 
     <item
-        android:id="@+id/nav_wifi"
-        android:icon="@drawable/ic_menu_wifi"
-        android:title="@string/internet_connection"/>
-
-    <item
         android:id="@+id/nav_announcement"
         android:icon="@drawable/ic_menu_announcement"
         android:title="@string/announcement"/>
@@ -55,6 +50,16 @@
         android:id="@+id/nav_donations"
         android:icon="@drawable/ic_menu_donations"
         android:title="@string/donations"/>
+
+    <item
+        android:id="@+id/nav_wifi"
+        android:icon="@drawable/ic_menu_wifi"
+        android:title="@string/internet_connection"/>
+
+    <item
+        android:id="@+id/nav_faqs"
+        android:icon="@drawable/ic_menu_faqs"
+        android:title="@string/faqs"/>
 
   </group>
 

@@ -13,10 +13,11 @@
   <string name="phones">Teléfonos</string>
   <string name="affected_areas">Mapa de Areas Afectadas</string>
   <string name="real_time">Mapa en Tiempo Real</string>
-  <string name="internet_connection">Conexión a Internet</string>
   <string name="person_finder">Localizador de Personas</string>
   <string name="announcement">Avisos Importantes</string>
   <string name="donations">Donaciones</string>
+  <string name="internet_connection">Conexión a Internet</string>
+  <string name="faqs">Preguntas Frecuentes</string>
 
 
   <string name="hospital_1">Hospital Angeles Pedregal</string>
@@ -113,5 +114,29 @@
     \n - Hospitales del ISSSTE
   </string>
 
+  <string name="advice_house">
+    \n -  Revisa la estructura de tu casa, las grietas en 45° son las más importantes, si las notas no te quedes en esa casa. Revisa las tomas de gas, si detectas fugas, cierra inmediatamente las tomas y reporta a los bomberos.
+    \n -  Revisa las tomas de agua, si detectas fugas, cierra las llaves de paso y reporta a protección civil.
+    \n - Evita saturar las vías de comunicación, en específico líneas telefónicas.
+  </string>
 
+  <string name="advice_internet">
+     \n - Usar Twitter de manera organizada y consciente.
+     \n - Hashtag #sismo es para información general.
+     \n - Hashtag #sismoCDMX y #sismoCDMX19sep17 para la ciudad de méxico.
+     \n - Hashtag #ayuda o #ayudaciudadana para solicitar medicamentos, cosas, insumos, personas, etc.
+     \n - Hashtag #sebusca para publicar información de personas en búsqueda.
+     \n - Hashtag de ubicación #CDMX, #Puebla, #Morelos, #Cuernavaca, #Jojutla
+     \n - Hashtag #RevisaMiGrieta para dudas sobre el estado de tu inmueble.
+     \n - Intentar chequear la información antes de publicar.
+     \n - Evita difundir información falsa o alarmista.
+     \n - Reporta en Google las personas encontradas, rescatadas o en búsqueda aquí.
+  </string>
+
+  <string name="advice_help">
+    \n - Usa tu carro solo en caso de extrema necesidad y urgencia.
+    \n - Checar las necesidades de cada lugar, llevar solo lo necesario.
+    \n - Revisa los lugares afectados cercanos a tu hogar, y trata de trasladarte lo menos posible.
+    \n - Revisa el mapa de necesidades.
+  </string>
 </resources>
