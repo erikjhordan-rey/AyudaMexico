@@ -15,6 +15,8 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         return new HelpFragment();
     }
 
+    private HelpPresenter helpPresenter;
+
     @Override protected int getLayoutResId() {
         return R.layout.help_fragment;
     }
@@ -23,7 +25,7 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         super.initPresenter();
         HelpClient helpClient = new HelpClient();
         HelpInteractor helpInteractor = new HelpInteractor(helpClient);
-        HelpPresenter helpPresenter = new HelpPresenter(helpInteractor);
+        helpPresenter = new HelpPresenter(helpInteractor);
         helpPresenter.setUi(this);
         helpPresenter.loadHelpList();
     }
@@ -48,5 +50,10 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
 
     @Override public void showLoading() {
 
+    }
+
+    @Override public void onDestroy() {
+        super.onDestroy();
+        helpPresenter.terminate();
     }
 }
