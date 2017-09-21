@@ -30,7 +30,7 @@ public class PhoneListsFragment extends CoreFragment{
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        viewPager.setAdapter(new PhonesFragmentPagerAdapter(getActivitySupportFragmentManager(), getContext()));
+        viewPager.setAdapter(new PhonesFragmentPagerAdapter(getChildFragmentManager(), getContext()));
         tabs.setupWithViewPager(viewPager);
     }
 }
