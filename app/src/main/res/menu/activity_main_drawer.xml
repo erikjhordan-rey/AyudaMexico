@@ -42,6 +42,11 @@
         android:title="@string/affected_areas_2"/>
 
     <item
+        android:id="@+id/nav_areas_puebla"
+        android:icon="@drawable/ic_menu_affected_areas_puebla"
+        android:title="@string/affected_areas_3"/>
+
+    <item
         android:id="@+id/nav_real_time"
         android:icon="@drawable/ic_menu_real_time"
         android:title="@string/real_time"/>
