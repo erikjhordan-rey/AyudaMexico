@@ -4,30 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
     >
-
 
   <ProgressBar
       android:id="@+id/progress_help"
-      android:visibility="gone"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      style="?android:attr/progressBarStyleLarge"
-      android:layout_gravity="center"
       android:layout_centerInParent="true"
+      android:layout_gravity="center"
+      android:visibility="gone"
+      style="?android:attr/progressBarStyleLarge"
       />
 
   <android.support.v4.widget.SwipeRefreshLayout
       android:id="@+id/activity_main_swipe_refresh_layout"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content">
+      android:layout_height="wrap_content"
+
+      >
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_hospital"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
+        android:padding="16dp"
         />
   </android.support.v4.widget.SwipeRefreshLayout>
 
