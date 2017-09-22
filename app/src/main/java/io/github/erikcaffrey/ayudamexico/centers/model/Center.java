@@ -60,9 +60,9 @@ public class Center {
     public String getMap() {
         if (map.contains("http")) {
             if (map.startsWith("http"))
-                return info;
+                return map;
             else
-                return info.substring(info.indexOf("http"));
+                return map.substring(map.indexOf("http"));
         } else {
             return "";
         }
