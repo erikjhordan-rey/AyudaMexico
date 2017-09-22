@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@color/colorGrey"
     >
   <ProgressBar
       android:id="@+id/progress_hostels"

@@ -16,9 +16,6 @@ import io.github.erikcaffrey.ayudamexico.centers.model.Center;
 import io.github.erikcaffrey.ayudamexico.common.BaseAdapter;
 import io.github.erikcaffrey.ayudamexico.common.BaseViewHolder;
 
-/**
- * Created by silmood on 9/21/17.
- */
 
 public class CentersAdapter extends BaseAdapter<Center>{
 

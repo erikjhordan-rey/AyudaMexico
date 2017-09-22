@@ -87,11 +87,11 @@ public class HelpHolder extends RecyclerView.ViewHolder  {
         String nivelText = help.getLevelOfUrgency().toLowerCase().trim();
 
             if (nivelText.equalsIgnoreCase("alto"))
-                nivel.setBackgroundResource(R.color.colorTop);
+                nivel.setBackgroundResource(R.color.colorAccent);
             else if (nivelText.equalsIgnoreCase("medio"))
-                nivel.setBackgroundResource(R.color.colorMiddle);
+                nivel.setBackgroundResource(R.color.orange);
             else if (nivelText.equalsIgnoreCase("bajo"))
-                nivel.setBackgroundResource(R.color.colorLow);
+                nivel.setBackgroundResource(R.color.colorPrimaryDark);
 
 
         nivel.setText(help.getLevelOfUrgency());

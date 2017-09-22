@@ -10,6 +10,7 @@
   <color name="colorMiddle">#FFFF00</color>
   <color name="colorLow">#A4A4A4</color>
   <color name="colorLink">#0097a7</color>
+  <color name="colorGrey">#F5F5F5</color>
 
 
 </resources>
