@@ -102,6 +102,6 @@ public class HelpHolder extends RecyclerView.ViewHolder  {
 
     private boolean helpModelIsNotEmpty(Help help)
     {
-        return ((help.getHelpRequired() != null && !help.getHelpRequired().isEmpty()) && (help.getAddress() != null && !help.getAddress().isEmpty()));
+        return ((help.getHelpRequired() != null && !help.getHelpRequired().isEmpty()) || (help.getAddress() != null && !help.getAddress().isEmpty()));
     }
 }

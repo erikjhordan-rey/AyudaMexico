@@ -12,5 +12,8 @@
   <color name="colorLink">#0097a7</color>
   <color name="colorGrey">#F5F5F5</color>
 
+  <color name="mexico_green">#006847</color>
+  <color name="mexico_white">#FFFFFF</color>
+  <color name="mexico_red">#CE1126</color>
 
 </resources>

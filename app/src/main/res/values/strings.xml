@@ -117,4 +117,15 @@
   <string name="maps">maps</string>
   <string name="no_data">No se ha encontrado información</string>
 
+
+  <string name="quick_tour_title_1">Hospitales</string>
+  <string name="quick_tour_desc_1">Tendrás información de las cosas que se necesitan y la dirección.</string>
+  <string name="quick_tour_title_2">Albergues</string>
+  <string name="quick_tour_desc_2">Te Decimos que necesitan los albergues y como llegar a ellos.</string>
+  <string name="quick_tour_title_3">Información en Tiempo Real</string>
+  <string name="quick_tour_desc_3">Aqui podrás ver toda la información en tiempo real.</string>
+  <string name="quick_tour_title_4">Localizador de personas</string>
+  <string name="quick_tour_desc_4">Accesso rápido al localizador de personas.</string>
+  <string name="quick_tour_skip_text">Comenzar</string>
+
 </resources>

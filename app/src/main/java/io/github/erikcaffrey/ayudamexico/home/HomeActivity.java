@@ -22,7 +22,8 @@ public class HomeActivity extends CoreActivity implements NavigationView.OnNavig
         return R.layout.home_activity;
     }
 
-    @Override protected void initActivity() {
+    @Override protected void initActivity()
+    {
         super.initActivity();
         initActionBarDrawerToggle();
         navigationView.setNavigationItemSelectedListener(this);
