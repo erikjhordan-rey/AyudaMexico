@@ -16,7 +16,7 @@ import io.github.erikcaffrey.ayudamexico.common.BaseAdapter;
 import io.github.erikcaffrey.ayudamexico.common.BaseViewHolder;
 
 
-public class CentersAdapter extends BaseAdapter<Center>{
+public class CentersAdapter extends BaseAdapter<Center> {
 
     public CentersAdapter() {
         super(R.layout.item_center);
@@ -47,9 +47,6 @@ public class CentersAdapter extends BaseAdapter<Center>{
         @BindView(R.id.button_map)
         Button map;
 
-        @BindView(R.id.button_info)
-        Button info;
-
         private Center item;
 
         public CenterHolder(View itemView) {
@@ -70,23 +67,11 @@ public class CentersAdapter extends BaseAdapter<Center>{
 
         @OnClick(R.id.button_map)
         public void showMap() {
-            if(item.getMap().isEmpty()) {
+            if (item.getMap().isEmpty()) {
                 showEmptyMessage();
             } else {
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(item.getMap()));
-                if(i.resolveActivity(itemView.getContext().getPackageManager()) != null) {
-                    itemView.getContext().startActivity(i);
-                }
-            }
-        }
-
-        @OnClick(R.id.button_info)
-        public void showInfo() {
-            if(item.getInfo().isEmpty()) {
-                showEmptyMessage();
-            } else {
-                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(item.getInfo()));
-                if(i.resolveActivity(itemView.getContext().getPackageManager()) != null) {
+                if (i.resolveActivity(itemView.getContext().getPackageManager()) != null) {
                     itemView.getContext().startActivity(i);
                 }
             }

@@ -52,8 +52,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
-            android:textStyle="bold"
-            tools:text="Santa Fe" />
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Información extra"
+            android:textColor="@color/colorLink"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label_more_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -70,27 +85,15 @@
             android:textStyle="bold"
             tools:text="21-Sep-2017 10:57 am" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_marginTop="8dp"
-            android:gravity="end">
-
-            <Button
-                android:id="@+id/button_map"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mapa"
-                android:textColor="#fff" />
-
-            <Button
-                android:id="@+id/button_info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Info"
-                android:textColor="#fff" />
-        </LinearLayout>
-
+            android:text="Mapa"
+            android:textColor="#fff" />
 
     </LinearLayout>
 

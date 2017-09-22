@@ -31,7 +31,6 @@ public class HostelsHolder extends RecyclerView.ViewHolder  {
     @BindView(R.id.label_address)
     TextView label_address;
 
-
     @BindView(R.id.label_zone)
     TextView label_zone;
 
