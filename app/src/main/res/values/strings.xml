@@ -128,5 +128,6 @@
   <string name="quick_tour_title_4">Localizador de personas</string>
   <string name="quick_tour_desc_4">Accesso rápido al localizador de personas.</string>
   <string name="quick_tour_skip_text">Comenzar</string>
+  <string name="description_share">Compartir</string>
 
 </resources>
