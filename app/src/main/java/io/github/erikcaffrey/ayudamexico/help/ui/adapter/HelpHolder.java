@@ -60,17 +60,20 @@ public class HelpHolder extends RecyclerView.ViewHolder  {
         });
     }
 
-        public void render(Help help) {
-            onItemClick(help);
-            renderNivel(help);
+        public void render(Help help)
+        {
+            if(helpModelIsNotEmpty(help))
+            {
+                onItemClick(help);
+                renderNivel(help);
 
-            help_required.setText(help.getHelpRequired());
-            renderNoRequired(help);
-            direction.setText(help.getAddress());
-            zone.setText(help.getZone());
-            detail.setText(help.getDetail());
-            date_update.setText(help.getUpdateDate());
-
+                help_required.setText(help.getHelpRequired());
+                renderNoRequired(help);
+                direction.setText(help.getAddress());
+                zone.setText(help.getZone());
+                detail.setText(help.getDetail());
+                date_update.setText(help.getUpdateDate());
+            }
     }
 
     private void renderNoRequired(Help help) {
@@ -95,5 +98,10 @@ public class HelpHolder extends RecyclerView.ViewHolder  {
 
 
         nivel.setText(help.getLevelOfUrgency());
+    }
+
+    private boolean helpModelIsNotEmpty(Help help)
+    {
+        return ((help.getHelpRequired() != null && !help.getHelpRequired().isEmpty()) && (help.getAddress() != null && !help.getAddress().isEmpty()));
     }
 }
