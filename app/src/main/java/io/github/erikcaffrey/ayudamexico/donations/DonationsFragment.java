@@ -20,10 +20,6 @@ public class DonationsFragment extends CoreFragment {
         openLink("http://www.topos.mx/");
     }
 
-    @OnClick(R.id.topos_red_url) public void topos_red_url() {
-        openLink("http://topos.red/");
-    }
-
     @OnClick(R.id.cruz_roja_url) public void cruz_roja_url() {
         openLink("https://cruzrojadonaciones.org/");
     }
