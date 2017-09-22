@@ -24,7 +24,7 @@ public class HospitalHolder extends RecyclerView.ViewHolder  {
     @BindView(R.id.help_required)
     TextView help_required;
 
-    @BindView(R.id.jelp_recive)
+    @BindView(R.id.help_recive)
     TextView help_recive;
 
     @BindView(R.id.direction)

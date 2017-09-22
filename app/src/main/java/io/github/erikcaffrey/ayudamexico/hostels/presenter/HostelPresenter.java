@@ -1,5 +1,7 @@
 package io.github.erikcaffrey.ayudamexico.hostels.presenter;
 
+import java.util.List;
+
 import erikjhordanrey.base_components.view.BasePresenter;
 import erikjhordanrey.base_components.view.BasePresenterLoader;
 import io.github.erikcaffrey.ayudamexico.hostels.model.Hostel;
@@ -7,7 +9,6 @@ import io.github.erikcaffrey.ayudamexico.hostels.model.HostelInteractor;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
-import java.util.List;
 
 public class HostelPresenter extends BasePresenter<HostelPresenter.Ui> {
 
@@ -44,11 +45,17 @@ public class HostelPresenter extends BasePresenter<HostelPresenter.Ui> {
         compositeDisposable.clear();
     }
 
+    public void onItemClick(Hostel hostel) {
+        getUi().showMap(hostel);
+    }
+
     public interface Ui extends BasePresenterLoader.Ui {
         void showHostelList(List<Hostel> hostelList);
 
         void showEmptyMessage();
 
         void showErrorMessage();
+
+        void showMap(Hostel hostel);
     }
 }
