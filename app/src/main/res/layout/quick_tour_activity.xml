@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,6 +9,19 @@
         android:id="@+id/quick_tour_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <com.rd.PageIndicatorView
+        android:id="@+id/pageIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        attrs:piv_viewPager="@id/quick_tour_viewpager"
+        attrs:piv_interactiveAnimation="true"
+        attrs:piv_animationType="worm"
+        attrs:piv_dynamicCount="true"
+        attrs:piv_unselectedColor="@android:color/darker_gray"
+        attrs:piv_selectedColor="@android:color/black"/>
 
     <Button
         android:id="@+id/quick_tour_skip_button"
