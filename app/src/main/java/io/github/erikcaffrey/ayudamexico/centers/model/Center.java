@@ -20,7 +20,7 @@ public class Center {
     private String map;
 
     @SerializedName("MAS_INFO")
-    private String info;
+    private String moreInfo;
 
     @SerializedName("ACTUALIZACION")
     private String updated;
@@ -72,19 +72,12 @@ public class Center {
         this.map = map;
     }
 
-    public String getInfo() {
-        if (info.contains("http")) {
-            if (info.startsWith("http"))
-                return info;
-            else
-                return info.substring(info.indexOf("http"));
-        } else {
-            return "";
-        }
+    public String getMoreInfo() {
+        return moreInfo;
     }
 
-    public void setInfo(String info) {
-        this.info = info;
+    public void setMoreInfo(String moreInfo) {
+        this.moreInfo = moreInfo;
     }
 
     public String getUpdated() {

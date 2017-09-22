@@ -44,6 +44,9 @@ public class CentersAdapter extends BaseAdapter<Center> {
         @BindView(R.id.label_zone)
         TextView zone;
 
+        @BindView(R.id.label_more_info)
+        TextView moreInfo;
+
         @BindView(R.id.button_map)
         Button map;
 
@@ -57,10 +60,10 @@ public class CentersAdapter extends BaseAdapter<Center> {
         @Override
         public void bindItem(Center item) {
             this.item = item;
-
             name.setText(item.getPlace());
             address.setText(item.getAddress());
             asking.setText(item.getAsking());
+            moreInfo.setText(item.getMoreInfo());
             update.setText(item.getUpdated());
             zone.setText(item.getZone());
         }

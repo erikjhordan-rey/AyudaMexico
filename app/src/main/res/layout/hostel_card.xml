@@ -71,15 +71,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Información extra"
+            android:text="@string/more_info"
             android:textColor="@color/colorLink"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/label_more_info"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold" />
+            android:autoLink="all"
+            android:layout_height="wrap_content" />
 
 
         <TextView
