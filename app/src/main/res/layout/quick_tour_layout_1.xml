@@ -52,17 +52,6 @@
                 android:textSize="20sp"/>
 
         </LinearLayout>
-
-        <Button
-            android:id="@+id/quick_tour_skip_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_margin="16dp"
-            android:text="@string/quick_tour_skip_text"
-            android:textColor="@android:color/white"/>
-
     </RelativeLayout>
 
 </FrameLayout>

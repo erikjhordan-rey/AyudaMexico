@@ -1,10 +1,13 @@
 package io.github.erikcaffrey.ayudamexico.quick_tour;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreActivity;
+import io.github.erikcaffrey.ayudamexico.home.HomeActivity;
 import io.github.erikcaffrey.ayudamexico.quick_tour.ui.QuickTourPageTransformer;
 import io.github.erikcaffrey.ayudamexico.quick_tour.ui.adapter.QuickTourAdapter;
 
@@ -28,5 +31,14 @@ public class QuickTourActivity extends CoreActivity
         super.initActivity();
         mViewPager.setAdapter(new QuickTourAdapter(getSupportFragmentManager()));
         mViewPager.setPageTransformer(false, new QuickTourPageTransformer());
+    }
+
+    @OnClick(R.id.quick_tour_skip_button)
+    public void clickOnSkipButton()
+    {
+        Utils.setQuickTourLaunched(this, false);
+        Intent intent = new Intent( this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

@@ -1,6 +1,5 @@
 package io.github.erikcaffrey.ayudamexico.quick_tour.ui;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
@@ -8,11 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
-import io.github.erikcaffrey.ayudamexico.home.HomeActivity;
-import io.github.erikcaffrey.ayudamexico.quick_tour.Utils;
 
 /**
  * Created by diegofranco on 9/21/17.
@@ -106,14 +102,5 @@ public class QuickTourFragment extends CoreFragment
         super.onViewCreated(view, savedInstanceState);
 
         background.setBackgroundColor(mBackgroundColor);
-    }
-
-    @OnClick(R.id.quick_tour_skip_button)
-    public void clickOnSkipButton()
-    {
-        Utils.setQuickTourLaunched(activity, false);
-        Intent intent = new Intent( activity, HomeActivity.class);
-        startActivity(intent);
-        activity.finish();
     }
 }
