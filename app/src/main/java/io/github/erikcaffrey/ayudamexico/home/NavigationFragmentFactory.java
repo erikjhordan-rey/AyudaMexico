@@ -7,7 +7,7 @@ import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
 import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
 import io.github.erikcaffrey.ayudamexico.centers.ui.GatheringFragment;
-import io.github.erikcaffrey.ayudamexico.donations.DonationsFragment;
+import io.github.erikcaffrey.ayudamexico.donations.DonationsMainFragment;
 import io.github.erikcaffrey.ayudamexico.faqs.QuestionsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
 import io.github.erikcaffrey.ayudamexico.help.ui.HelpFragment;
@@ -66,7 +66,7 @@ class NavigationFragmentFactory {
                 break;
 
             case R.id.nav_donations:
-                fragment = DonationsFragment.newInstance();
+                fragment = DonationsMainFragment.newInstance();
                 title = R.string.donations;
                 break;
             case R.id.nav_wifi:
