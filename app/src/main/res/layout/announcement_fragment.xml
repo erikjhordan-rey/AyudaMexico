@@ -44,16 +44,17 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/sable_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/5USvmH"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
-            android:textSize="12sp"
-            />
+            android:textSize="12sp" />
 
       </LinearLayout>
 
@@ -91,14 +92,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/pisa_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/GWg9WX"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -149,14 +152,16 @@
             android:textSize="12sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/list_1_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Leer más > https://goo.gl/af31WD"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -197,14 +202,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/sismo_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/Zfxcas"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -245,14 +252,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/classes_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/Q6hHSQ"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -293,14 +302,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/modelo_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/owYCdb"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -343,14 +354,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/wings_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/1JWiks"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -391,14 +404,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/etn_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/HfH3Qv"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
       </LinearLayout>
@@ -439,14 +454,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/anima_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/Vj7xah"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
       </LinearLayout>
@@ -488,14 +505,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/telcel_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/a5wHEf"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
       </LinearLayout>
@@ -535,14 +554,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/startup_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/P54YT7"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -583,14 +604,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/hospital_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Leer más > https://goo.gl/18c35s"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -632,14 +655,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/risky_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/8aJwqB"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -680,14 +705,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/ado_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/y5bd5c"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -729,14 +756,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/aero_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/HBCQMN"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
@@ -778,14 +807,16 @@
             android:textSize="16sp"
             />
 
-        <TextView
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:id="@+id/vans_url"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="Leer más > https://goo.gl/MryZd6"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:text="@string/leer_mas"
             android:textColor="@color/colorAccent"
-            android:textIsSelectable="true"
             android:textSize="12sp"
             />
 
