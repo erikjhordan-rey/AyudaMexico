@@ -9,6 +9,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import java.util.List;
+
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
@@ -17,7 +20,6 @@ import io.github.erikcaffrey.ayudamexico.help.model.HelpClient;
 import io.github.erikcaffrey.ayudamexico.help.model.HelpInteractor;
 import io.github.erikcaffrey.ayudamexico.help.presenter.HelpPresenter;
 import io.github.erikcaffrey.ayudamexico.help.ui.adapter.HelpAdapter;
-import java.util.List;
 
 public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
 
@@ -91,10 +93,18 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         Toast.makeText(getContext(), "Ha Ocurrido un error", Toast.LENGTH_LONG).show();
     }
 
-    @Override public void showDetails(Help help) {
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(help.getLinkMaps()));
-        startActivity(i);
+    @Override public void showDetails(Help help)
+    {
+        if(help.getLinkMaps() != null && !help.getLinkMaps().isEmpty())
+        {
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(help.getLinkMaps()));
+            startActivity(i);
+        }
+        else
+        {
+            showEmptyMessage();
+        }
     }
 
     @Override public void hideLoading() {
