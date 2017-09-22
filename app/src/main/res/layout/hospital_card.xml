@@ -9,14 +9,13 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:orientation="vertical"
+      android:padding="12dp"
       >
     <TextView
         android:id="@+id/name_hospital"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:padding="8dp"
-        android:textAlignment="center"
+        android:text="center"
         android:textSize="18sp"
         android:textStyle="bold"
         />
@@ -24,8 +23,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="8dp"
         android:orientation="vertical"
+        android:layout_marginTop="8dp"
         >
 
       <TextView
@@ -130,7 +129,8 @@
           android:background="@color/colorGrey"
           android:gravity="end"
           android:padding="8dp"
-          android:text="maps"
+          android:text="@string/maps"
+          android:textColor="@color/orange"
           android:textSize="18sp"
           />
 

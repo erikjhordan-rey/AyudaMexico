@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorGrey"
     >
   <LinearLayout
       android:layout_width="match_parent"
@@ -29,17 +30,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Sable"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="¡TENEMOS 12 HRS PARA APOYAR A MORELOS! Si saben de algún albergue, o centro de acopio que necesite transporte a Morelos escríbanos. Si te queda lejos el sur, pásanos tus donaciones a nosotros."
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -48,6 +48,7 @@
             android:id="@+id/sable_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/5USvmH"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -75,17 +76,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="PiSA Farmacéutica "
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
+            android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="#PiSAFarmacéutica apoyará gratuitamente a todos los centros de acopio que requieran medicamentos e insumos médicos para atender a todas las personas lesionadas de #CDMX #Morelos y #Puebla ¡Ayúdanos a difundir! #FuerzaMéxico #UnidosSomosMás #sismo #PiSAayuda"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -94,6 +95,7 @@
             android:id="@+id/pisa_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/GWg9WX"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -122,17 +124,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Revisa las listas creadas por la población"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="En estas listas puedes encontrar toda la información recopilada por toda la población acerca de hospitales, personas, albergues, centros de acopio, etc. se actualizan constantemente."
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -141,6 +142,7 @@
             android:id="@+id/list_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/f4MuBF"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -181,17 +183,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Servicio Simológico Nacional"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Recuerda manterte informado acerca de los sismos."
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -200,6 +201,7 @@
             android:id="@+id/sismo_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/Zfxcas"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -229,17 +231,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Sep Suspende clases toda la semana en 10 entidades del País."
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="No habra clases toda la semana en escuelas ubicadas en Ciudad de México, Puebla, Morelos, Oaxaca, Chiapas, Guerrero, Tlaxcala, Estado de México, Hidalgo y Michoacán"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -248,6 +249,7 @@
             android:id="@+id/classes_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/Q6hHSQ"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -276,17 +278,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Grupo Modelo pone a disposición entidades de ayuda humanitaria"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
+            android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="GrupoModelo_MX pone a disposición 400 camiones con choferes y combustible para transportar apoyo humanitario. #rse #solidaridad #sismo "
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -295,6 +297,7 @@
             android:id="@+id/modelo_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/owYCdb"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -322,19 +325,20 @@
           >
 
         <TextView
+            android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Las Alitas"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
+            android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Les informamos que nuestras sucursales de Cd. Juárez y Chihuahua Palmas estarán funcionando como Centros de Acopio. Siempre con Las Alas Abiertas. Fuerza México."
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -343,6 +347,7 @@
             android:id="@+id/wings_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/1JWiks"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -373,15 +378,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="ETN Turistar"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Si eres Rescatista o Paramedico y deseas ayudar en las ciudades de México. Cuernavaca o Puebla acude a nuestras Taquillas"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -390,6 +395,7 @@
             android:id="@+id/etn_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/HfH3Qv"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -419,17 +425,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Anima Naturalis México‏ "
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Se adjunta lista de veterinarios que están ofreciendo sus servicios de manera GRATUITA tras #sismo. Por favor SÓLO EMERGENCIAS"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -438,6 +443,7 @@
             android:id="@+id/anima_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/Vj7xah"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -468,17 +474,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Telcel"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Telcel ofrece llamadas, sms y datos gratis en TODO MEXICO ante la emergencia por el sismo"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -487,6 +492,7 @@
             android:id="@+id/telcel_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/a5wHEf"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -514,9 +520,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Startup México"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
@@ -524,8 +529,8 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Si los rescatistas levantan la mano, por favor guarda silencio, es la señal para escuchar sobrevivientes. RT #Sismo #FuerzaMéxico"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -534,6 +539,7 @@
             android:id="@+id/startup_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/P54YT7"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -563,17 +569,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Markinp"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:text="Hospitales gratis #Temblor #Cdmx #sismo #Fuerzamexico #mexico"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -582,6 +587,7 @@
             android:id="@+id/hospital_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Leer más > https://goo.gl/18c35s"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -613,15 +619,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Estos son los edificios en riesgo de derrumbe en la Cuauhtémoc #Sismo"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Hay 23 edificios en peligro y estas son sus ubicaciones."
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -630,6 +636,7 @@
             android:id="@+id/risky_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/8aJwqB"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -659,17 +666,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="ADO brinda ayuda a rescatistas"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="¿Eres rescatista o Paramédico y quieres ayudar en CDMX?"
-            android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
             android:textSize="16sp"
             />
@@ -678,6 +684,7 @@
             android:id="@+id/ado_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/y5bd5c"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -707,15 +714,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Aeromexico"
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="Recomendaciones si viajas desde la CDMX"
             android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
@@ -726,6 +733,7 @@
             android:id="@+id/aero_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/HBCQMN"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"
@@ -755,15 +763,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="Vans - Como ayudar hoy 20 de Septiembre "
-            android:textColor="@android:color/primary_text_light"
+            android:textColor="@color/orange"
             android:textSize="22sp"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:text="El susto está pasando, pero nos empezaremos a enfrentar a lo más difícil. La situación requiere calma, mantenernos seguros y apoyar en medida de lo que nos sea posible"
             android:textColor="@android:color/secondary_text_light"
             android:textIsSelectable="true"
@@ -774,6 +782,7 @@
             android:id="@+id/vans_url"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
             android:text="Leer más > https://goo.gl/MryZd6"
             android:textColor="@color/colorAccent"
             android:textIsSelectable="true"

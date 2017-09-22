@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="¿Qué hacer al llegar a mi edificio o casa?"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/colorAccent"
         android:textIsSelectable="true"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -23,22 +23,23 @@
 
 
     <TextView
+        android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/advice_house"
-        android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
         android:textSize="20sp"
         />
 
 
     <TextView
+        android:id="@+id/textView19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="¿Cómo ayudar desde internet?"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/orange"
         android:textIsSelectable="true"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -50,7 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/advice_internet"
-        android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
         android:textSize="20sp"
         />
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="¿A donde ir para ayudar físicamente?"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/colorPrimaryDark"
         android:textIsSelectable="true"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -72,7 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/advice_help"
-        android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
         android:textSize="20sp"
         />

@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="¿Quieres ayudar? Dona sangre"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/orange"
         android:textIsSelectable="true"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Requisitos"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/orange"
         android:textIsSelectable="true"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -36,9 +36,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="@string/requirements_blood_bank"
-        android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
         android:textSize="20sp"
         />
@@ -47,9 +45,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Bancos de sangre en la Ciudad de México"
-        android:textColor="@android:color/primary_text_light"
+        android:textColor="@color/orange"
         android:textIsSelectable="true"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -59,9 +57,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="@string/hospitals_blood_bank"
-        android:textColor="@android:color/primary_text_light"
         android:textIsSelectable="true"
         android:textSize="20sp"
         />
