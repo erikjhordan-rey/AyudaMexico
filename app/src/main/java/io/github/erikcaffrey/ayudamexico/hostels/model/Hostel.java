@@ -6,6 +6,7 @@ public class Hostel {
 
     @SerializedName("LUGAR") private String place;
     @SerializedName("NECESITAN") private String needsTo;
+    @SerializedName("RECIBEN") private String receive;
     @SerializedName("DIRECCION") private String address;
     @SerializedName("ZONA") private String zone;
     @SerializedName("MAPA") private String map;
@@ -39,4 +40,6 @@ public class Hostel {
     public String getUpdate() {
         return update;
     }
+
+    public String getReceive() {return receive;}
 }
