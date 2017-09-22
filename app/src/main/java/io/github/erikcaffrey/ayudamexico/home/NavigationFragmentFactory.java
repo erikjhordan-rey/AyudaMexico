@@ -6,7 +6,7 @@ import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
 import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
-import io.github.erikcaffrey.ayudamexico.centers.GatheringFragment;
+import io.github.erikcaffrey.ayudamexico.centers.ui.GatheringFragment;
 import io.github.erikcaffrey.ayudamexico.donations.DonationsFragment;
 import io.github.erikcaffrey.ayudamexico.faqs.QuestionsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
