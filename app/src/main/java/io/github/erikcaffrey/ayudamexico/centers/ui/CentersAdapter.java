@@ -5,8 +5,7 @@ import android.net.Uri;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -67,26 +66,34 @@ public class CentersAdapter extends BaseAdapter<Center>{
             asking.setText(item.getAsking());
             update.setText(item.getUpdated());
             zone.setText(item.getZone());
-
-            if (item.getMap().isEmpty())
-                map.setClickable(false);
-
-            if (item.getInfo().isEmpty())
-                info.setClickable(false);
         }
 
         @OnClick(R.id.button_map)
-        public void showMap(){
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(item.getMap()));
-            itemView.getContext().startActivity(i);
+        public void showMap() {
+            if(item.getMap().isEmpty()) {
+                showEmptyMessage();
+            } else {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(item.getMap()));
+                if(i.resolveActivity(itemView.getContext().getPackageManager()) != null) {
+                    itemView.getContext().startActivity(i);
+                }
+            }
         }
 
         @OnClick(R.id.button_info)
-        public void showInfo(){
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(item.getInfo()));
-            itemView.getContext().startActivity(i);
+        public void showInfo() {
+            if(item.getInfo().isEmpty()) {
+                showEmptyMessage();
+            } else {
+                Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(item.getInfo()));
+                if(i.resolveActivity(itemView.getContext().getPackageManager()) != null) {
+                    itemView.getContext().startActivity(i);
+                }
+            }
+        }
+
+        private void showEmptyMessage() {
+            Toast.makeText(itemView.getContext(), R.string.no_data, Toast.LENGTH_SHORT).show();
         }
     }
 }

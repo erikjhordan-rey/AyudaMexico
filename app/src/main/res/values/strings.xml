@@ -115,5 +115,6 @@
   <string name="help_recive">Reciben</string>
   <string name="more_info">Más Información</string>
   <string name="maps">maps</string>
+  <string name="no_data">No se ha encontrado información</string>
 
 </resources>

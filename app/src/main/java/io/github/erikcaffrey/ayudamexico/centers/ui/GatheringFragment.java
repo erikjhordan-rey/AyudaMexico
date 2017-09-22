@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -87,8 +88,7 @@ public class GatheringFragment extends CoreFragment implements GatheringPresente
     }
 
     private void initializeRecyclerView() {
-        GridLayoutManager lLayout = new GridLayoutManager(getActivity(), 1);
-        recyclerCenter.setLayoutManager(lLayout);
+        recyclerCenter.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerCenter.setAdapter(adapter);
     }
 
