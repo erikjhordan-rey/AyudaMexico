@@ -1,24 +1,25 @@
-package io.github.erikcaffrey.ayudamexico.help.model;
+package io.github.erikcaffrey.ayudamexico.common;
 
+import java.lang.reflect.ParameterizedType;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-abstract class HelpRetrofitClient {
+public abstract class BaseRetrofitClient<T> {
+
+    public T service;
 
     private final static String URL = "https://script.google.com/";
-    final static String HELP_URL = "https://script.google.com/macros/s/AKfycbzhe6RHOJqCDTgW1NLd1C_bRGJKfk4D1r2dvXLYoxeKl0Bso2L_/exec";
-    private HelpRetrofitService helpRetrofitService;
 
-    HelpRetrofitClient() {
+    public BaseRetrofitClient() {
         initRetrofit();
     }
 
     private void initRetrofit() {
         Retrofit retrofit = retrofitBuilder();
-        helpRetrofitService = retrofit.create(getServiceClass());
+        service = retrofit.create(getGenericApiClass());
     }
 
     private Retrofit retrofitBuilder() {
@@ -37,11 +38,7 @@ abstract class HelpRetrofitClient {
         return httpClient.build();
     }
 
-    private Class<HelpRetrofitService> getServiceClass() {
-        return HelpRetrofitService.class;
-    }
-
-    protected HelpRetrofitService getService() {
-        return helpRetrofitService;
+    @SuppressWarnings("unchecked") private Class<T> getGenericApiClass() {
+        return (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
 }
