@@ -6,19 +6,19 @@
 
   <string name="action_settings">Settings</string>
 
-  <string name="hospitals">Hospitales</string>
-  <string name="blood_bank">Bancos de Sangre</string>
-  <string name="hostels">Albergues</string>
+  <string name="help_cdmx">Ayuda Requerida</string>
   <string name="gathering_center">Centros de Acopio</string>
-  <string name="help_cdmx">Ayuda Sismo CDMX</string>
-  <string name="phones">Teléfonos</string>
-  <string name="affected_areas">Areas Afectadas</string>
-  <string name="real_time">Tiempo Real CDMX</string>
-  <string name="person_finder">Localizador de Personas</string>
+  <string name="hospitals">Hospitales</string>
+  <string name="hostels">Albergues</string>
   <string name="announcement">Avisos Importantes</string>
+  <string name="blood_bank">Bancos de Sangre</string>
+  <string name="affected_areas">Areas Afectadas</string>
+  <string name="verificados_map">Mapa  Verificados19s</string>
+  <string name="real_time">Tiempo Real CDMX</string>
+  <string name="phones">Teléfonos</string>
+  <string name="person_finder">Localizador de Personas</string>
   <string name="donations">Donaciones</string>
   <string name="internet_connection">Conexión a Internet</string>
-  <string name="verificados_map">Mapagit  Verificados19s</string>
   <string name="faqs">Preguntas Frecuentes</string>
 
 
