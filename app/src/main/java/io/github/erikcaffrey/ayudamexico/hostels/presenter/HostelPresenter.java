@@ -46,7 +46,11 @@ public class HostelPresenter extends BasePresenter<HostelPresenter.Ui> {
     }
 
     public void onItemClick(Hostel hostel) {
-        getUi().showMap(hostel);
+        if (hostel.getMap() == null || hostel.getMap().isEmpty()) {
+            getUi().showEmptyMessage();
+        } else {
+            getUi().showMap(hostel);
+        }
     }
 
     public interface Ui extends BasePresenterLoader.Ui {
