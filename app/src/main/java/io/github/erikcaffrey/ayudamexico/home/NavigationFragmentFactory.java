@@ -70,7 +70,7 @@ class NavigationFragmentFactory {
                 break;
             case R.id.nav_wifi:
                 fragment = InternetFragment.newInstance();
-                title = R.string.faqs;
+                title = R.string.internet_connection;
                 break;
 
             case R.id.nav_faqs:
