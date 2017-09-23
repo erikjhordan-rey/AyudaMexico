@@ -37,9 +37,14 @@
         android:title="@string/affected_areas"/>
 
     <item
-        android:id="@+id/nav_real_time"
-        android:icon="@drawable/ic_menu_real_time"
-        android:title="@string/real_time"/>
+      android:id="@+id/nav_real_time"
+      android:icon="@drawable/ic_menu_real_time"
+      android:title="@string/real_time"/>
+
+    <item
+        android:id="@+id/nav_verificados"
+        android:icon="@drawable/ic_menu_verificados"
+        android:title="@string/verificados_map"/>
 
     <item
         android:id="@+id/nav_person_finder"
