@@ -2,7 +2,7 @@ package io.github.erikcaffrey.ayudamexico.home;
 
 import android.support.v4.app.Fragment;
 import io.github.erikcaffrey.ayudamexico.R;
-import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
+import io.github.erikcaffrey.ayudamexico.announcement.ui.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
 import io.github.erikcaffrey.ayudamexico.areas.CdmxMapFragment;
 import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
