@@ -2,11 +2,49 @@ package io.github.erikcaffrey.ayudamexico.donations;
 
 import android.content.Intent;
 import android.net.Uri;
-import butterknife.OnClick;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
+import java.util.List;
+
+import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
+import io.github.erikcaffrey.ayudamexico.donations.presenter.DonationsPresenterImpl;
+import io.github.erikcaffrey.ayudamexico.donations.service.Donation;
+import io.github.erikcaffrey.ayudamexico.donations.view.DonationsAdapter;
+import io.github.erikcaffrey.ayudamexico.donations.view.DonationsView;
 
-public class DonationsFragment extends CoreFragment {
+public class DonationsFragment extends CoreFragment implements DonationsView {
+
+    @BindView(R.id.recycler_view_donations)
+    RecyclerView donationsRecyclerView;
+
+    private DonationsPresenterImpl presenter;
+    private DonationsAdapter donationsAdapter;
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        presenter = new DonationsPresenterImpl(this);
+        presenter.getDonations();
+
+        donationsRecyclerView.setLayoutManager(new LinearLayoutManager(this.getContext()));
+        donationsAdapter = new DonationsAdapter(new DonationsFragment.onClick(){
+
+            @Override
+            public void openLink(String url) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+        donationsRecyclerView.setAdapter(donationsAdapter);
+
+    }
 
     public static DonationsFragment newInstance() {
         return new DonationsFragment();
@@ -16,56 +54,14 @@ public class DonationsFragment extends CoreFragment {
         return R.layout.donations_fragment;
     }
 
-    @OnClick(R.id.topos_mx_url) public void topos_mx_url() {
-        openLink("http://www.topos.mx/");
+
+    @Override
+    public void showDonations(List<Donation> donationList) {
+        donationsAdapter.setDonationList(donationList);
+        donationsAdapter.notifyDataSetChanged();
     }
 
-    @OnClick(R.id.cruz_roja_url) public void cruz_roja_url() {
-        openLink("https://cruzrojadonaciones.org/");
-    }
-
-    @OnClick(R.id.comoayudar_url) public void comoayudar_url() {
-        openLink("http://comoayudar.mx/");
-    }
-
-    @OnClick(R.id.text_comoayudar_url) public void text_comoayudar_url() {
-        openLink("http://comoayudar.mx/");
-    }
-
-    @OnClick(R.id.amzn_url) public void amzn_url() {
-        openLink("http://amzn.to/2yq5N8y");
-    }
-
-    @OnClick(R.id.text_amzn_url) public void text_amzn_url() {
-        openLink("http://amzn.to/2yq5N8y");
-    }
-
-    @OnClick(R.id.card_slim_url) public void card_slim_url() {
-        openLink("https://goo.gl/FwiHg4");
-    }
-
-    @OnClick(R.id.text_slim_url) public void text_slim_url() {
-        openLink("https://goo.gl/FwiHg4");
-    }
-
-    @OnClick(R.id.slim_url) public void slim_url() {
-        openLink("https://goo.gl/FwiHg4");
-    }
-
-    @OnClick(R.id.google_url) public void goole_url() {
-        openLink("https://goo.gl/SY2D23");
-    }
-
-    @OnClick(R.id.impact_url) public void impact_url() {
-        openLink("https://goo.gl/GurVUX");
-    }
-
-
-
-
-    public void openLink(String url) {
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(url));
-        startActivity(i);
+    public interface onClick {
+        void openLink(String url);
     }
 }
