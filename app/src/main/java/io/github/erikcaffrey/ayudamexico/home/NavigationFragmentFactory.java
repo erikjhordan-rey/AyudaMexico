@@ -15,7 +15,6 @@ import io.github.erikcaffrey.ayudamexico.hospitals.ui.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.ui.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;
 import io.github.erikcaffrey.ayudamexico.phones.PhoneListsFragment;
-import io.github.erikcaffrey.ayudamexico.realtime.VerificadosRTFragment;
 
 class NavigationFragmentFactory {
 
@@ -55,10 +54,6 @@ class NavigationFragmentFactory {
             case R.id.nav_real_time:
                 fragment = CdmxMapFragment.newInstance();
                 title = R.string.real_time;
-                break;
-            case R.id.nav_verificados:
-                fragment = VerificadosRTFragment.newInstance();
-                title = R.string.verificados_map;
                 break;
             case R.id.nav_person_finder:
                 fragment = PeopleFinderFragment.newInstance();

@@ -50,11 +50,6 @@
       android:title="@string/real_time"/>
 
     <item
-        android:id="@+id/nav_verificados"
-        android:icon="@drawable/ic_menu_verificados"
-        android:title="@string/verificados_map"/>
-
-    <item
         android:id="@+id/nav_person_finder"
         android:icon="@drawable/ic_menu_people_finder"
         android:title="@string/person_finder"/>
