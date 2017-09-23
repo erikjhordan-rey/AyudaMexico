@@ -139,6 +139,11 @@
 
 
 
+  <!-- Announcement -->
+  <string name="lbl_place">LUGAR</string>
+  <string name="lbl_announcement">AVISO</string>
+  <string name="lbl_direction">DIRECCION</string>
+  <string name="lbl_last_update">ULTIMA ACTUALIZACION</string>
 
 
 </resources>

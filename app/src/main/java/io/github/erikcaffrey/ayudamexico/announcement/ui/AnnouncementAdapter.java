@@ -79,7 +79,45 @@ public class AnnouncementAdapter extends BaseAdapter<Announcement> {
 
         @OnClick(R.id.button_share)
         public void shareAnnouncement() {
-            ShareCompat.IntentBuilder.from(activity).setType("text/plain").setText(item.getAnnouncement()).startChooser();
+            ShareCompat.IntentBuilder.from(activity).setType("text/plain").setText(getAnnouncement()).startChooser();
+        }
+
+        public String getAnnouncement(){
+
+            StringBuilder announcement = new StringBuilder();
+            announcement.append("· México Necesita tu ayuda ¬");
+            announcement.append("\n");
+            announcement.append("\n");
+
+
+            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_place));
+            announcement.append("\n");
+            announcement.append(item.getPlace());
+            announcement.append("\n");
+            announcement.append("\n");
+
+            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_announcement));
+            announcement.append("\n");
+            announcement.append(item.getAnnouncement());
+            announcement.append("\n");
+            announcement.append("\n");
+
+            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_direction));
+            announcement.append("\n");
+            announcement.append(item.getContact());
+            announcement.append("\n");
+            announcement.append("\n");
+
+            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_last_update));
+            announcement.append("\n");
+            announcement.append(item.getUpdated());
+            announcement.append("\n");
+
+            announcement.append("#AyudaMéxico #FuerzaMéxico");
+
+
+            return announcement.toString();
+
         }
 
     }
