@@ -1,10 +1,10 @@
 package io.github.erikcaffrey.ayudamexico.home;
 
 import android.support.v4.app.Fragment;
-
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.announcement.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
+import io.github.erikcaffrey.ayudamexico.areas.CdmxMapFragment;
 import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
 import io.github.erikcaffrey.ayudamexico.centers.ui.GatheringFragment;
 import io.github.erikcaffrey.ayudamexico.donations.DonationsMainFragment;
@@ -15,7 +15,7 @@ import io.github.erikcaffrey.ayudamexico.hospitals.ui.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.ui.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;
 import io.github.erikcaffrey.ayudamexico.phones.PhoneListsFragment;
-import io.github.erikcaffrey.ayudamexico.realtime.RealTimeFragment;
+import io.github.erikcaffrey.ayudamexico.realtime.VerificadosRTFragment;
 
 class NavigationFragmentFactory {
 
@@ -53,8 +53,12 @@ class NavigationFragmentFactory {
                 title = R.string.affected_areas;
                 break;
             case R.id.nav_real_time:
-                fragment = RealTimeFragment.newInstance();
+                fragment = CdmxMapFragment.newInstance();
                 title = R.string.real_time;
+                break;
+            case R.id.nav_verificados:
+                fragment = VerificadosRTFragment.newInstance();
+                title = R.string.verificados_map;
                 break;
             case R.id.nav_person_finder:
                 fragment = PeopleFinderFragment.newInstance();
