@@ -106,7 +106,7 @@
     \n - Revisa los lugares afectados cercanos a tu hogar, y trata de trasladarte lo menos posible.
     \n - Revisa el mapa de necesidades.
   </string>
-  <string name="help_required">Ayuda Requerida</string>
+  <string name="help_required"><b>Ayuda Requerida</b></string>
   <string name="help_no_required">Que no se requiere</string>
   <string name="direction">Dirección</string>
   <string name="zone">Zona</string>

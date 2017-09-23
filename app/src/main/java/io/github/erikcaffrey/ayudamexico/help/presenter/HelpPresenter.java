@@ -49,6 +49,10 @@ public class HelpPresenter extends BasePresenter<HelpPresenter.Ui> {
         getUi().showDetails(help);
     }
 
+    public void sharedClicked(String message) {
+        getUi().share(message);
+    }
+
     public interface Ui extends BasePresenterLoader.Ui {
 
         void showHelpList(List<Help> helpList);
@@ -58,5 +62,7 @@ public class HelpPresenter extends BasePresenter<HelpPresenter.Ui> {
         void showErrorMessage();
 
         void showDetails(Help help);
+
+        void share(String message);
     }
 }
