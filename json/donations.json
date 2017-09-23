@@ -1,0 +1,37 @@
+{
+    "donations": [{
+            "title": "Brigada de Rescate Topos Tlaltelolco, A.C.",
+            "description": "Paypal: donativos@brigada-rescate-topos.org\n Santander Cuenta: 92-00070929-4\n CLABE: 014180920007092942\n REFERENCIA: Brigada de Rescate Topos Tlaltelolco, A.C.",
+            "url": "http://www.topos.mx/"
+        },
+        {
+            "title": "Cruz Roja Mexicana",
+            "url": "https://cruzrojadonaciones.org/"
+        },
+        {
+            "title": "Como Ayudar - Ayuda Sismo 19 de Septiembre",
+            "description": "A continuación encontrarás diferentes organizaciones, centros de acopio o formas de ayudar a los afectados o rescatistas del sismo.",
+            "url": "http://comoayudar.mx/"
+        },
+        {
+            "title": "FUNDACION GENERA DESARROLLO A.C.",
+            "description": "Varios brigadistas nos dijeron que hacen falta herramientas para que los rescates sean más eficientes. Hablamos con Truper, empresa de herramientas de construcción, y logramos que nos dieran sus productos con 50% de descuento del precio de distribuidor (casi regalados) para donar a las brigadas de rescate. Se las haremos llegar lo más rápido posible con el apoyo logístico de Kilo de Ayuda. Las herramientas sólo serán entregadas a rescatistas profesionales.",
+            "url": "https://goo.gl/GurVUX"
+        },
+        {
+            "title": "Amazon + Cruz Roja",
+            "description": "Ante el desastre derivado de los sismos del 7 y 19 de septiembre en la República Mexicana, en Cruz Roja Mexicana necesitamos de tu ayuda para apoyar a las personas afectadas. Hemos abierto una Wish List en Amazon.com.mx para facilitar el acopio y la entrega a la Cruz Roja Mexicana de productos que son muy necesarios para hacer frente a la emergencia. Te invitamos ser solidario con aquellos que cuentan con nosotros y a donar comprando artículos de esta Wish List. Amazon México reunirá y entregará los productos donados por sus clientes directamente a la Cruz Roja Mexicana. Agradecemos tu generosidad. #AyudarNosMueve",
+            "url": "http://amzn.to/2yq5N8y"
+        },
+        {
+            "title": "Fundación Carlos Slim",
+            "description": "Debido a los graves daños provocados por los recientes sismos que impactaron a México, Fundación Carlos Slim, Fundación Telmex - Telcel, así como Telcel y Telmex ampliaron su campaña para aportar $5 pesos por cada $1 que la sociedad done. Los recursos que se capten se destinarán a la atención de la emergencia, así como en la reconstrucción de escuelas y centros de salud.",
+            "url": "https://goo.gl/FwiHg4"
+        },
+        {
+            "title": "Dona con Google",
+            "description": "Google proporciona este servicio de donación para ayudarle a dirigir sus fondos para un impacto local efectivo",
+            "url": "https://goo.gl/SY2D23"
+        }
+    ]
+}
