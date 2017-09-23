@@ -1,7 +1,9 @@
 package io.github.erikcaffrey.ayudamexico.announcement.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v4.app.ShareCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,9 +22,11 @@ import io.github.erikcaffrey.ayudamexico.common.BaseViewHolder;
 
 public class AnnouncementAdapter extends BaseAdapter<Announcement> {
 
+    private Activity activity;
     public AnnouncementAdapter() {
         super(R.layout.item_announcement);
     }
+
 
     @Override
     public BaseViewHolder<Announcement> getViewHolder(View view) {
@@ -72,5 +76,58 @@ public class AnnouncementAdapter extends BaseAdapter<Announcement> {
                 itemView.getContext().startActivity(i);
             }
         }
+
+        @OnClick(R.id.button_share)
+        public void shareAnnouncement() {
+            ShareCompat.IntentBuilder.from(activity).setType("text/plain").setText(getAnnouncement()).startChooser();
+        }
+
+        public String getAnnouncement(){
+
+            StringBuilder announcement = new StringBuilder();
+            announcement.append("· México Necesita tu ayuda ¬");
+            announcement.append("\n");
+            announcement.append("\n");
+
+            if (item.getPlace()!=null && !item.getPlace().trim().equals("")){
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_place));
+                announcement.append("\n");
+                announcement.append(item.getPlace());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
+
+            if (item.getAnnouncement()!=null && !item.getAnnouncement().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_announcement));
+                announcement.append("\n");
+                announcement.append(item.getAnnouncement());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
+
+            if (item.getContact()!=null && !item.getContact().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_direction));
+                announcement.append("\n");
+                announcement.append(item.getContact());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
+
+
+            if (item.getUpdated()!=null && !item.getUpdated().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_last_update));
+                announcement.append("\n");
+                announcement.append(item.getUpdated());
+                announcement.append("\n");
+            }
+            announcement.append("#AyudaMéxico #FuerzaMéxico");
+
+
+            return announcement.toString();
+
+        }
+
     }
+
+    public void setActivity(Activity activity) {this.activity = activity;}
 }
