@@ -1,68 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:orientation="vertical"
-      android:padding="16dp"
-      >
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="¿Quieres ayudar? Dona sangre"
-        android:textColor="@color/orange"
-        android:textIsSelectable="true"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Requisitos"
-        android:textColor="@color/orange"
-        android:textIsSelectable="true"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/want_donate_blood"
+            android:textColor="@color/orange"
+            android:textIsSelectable="true"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/requirements_blood_bank"
-        android:textIsSelectable="true"
-        android:textSize="20sp"
-        />
+        <TextView
 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/requirements"
+            android:textColor="@color/colorLink"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Bancos de sangre en la Ciudad de México"
-        android:textColor="@color/orange"
-        android:textIsSelectable="true"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/requirements_blood_bank"
+            android:textIsSelectable="true"
+            android:textSize="16sp" />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hospitals_blood_bank"
-        android:textIsSelectable="true"
-        android:textSize="20sp"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/blood_banks"
+            android:textColor="@color/colorLink"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
-  </LinearLayout>
+        <TextView
+            android:id="@+id/label_hospital_angeles_pedregal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_angeles_pedregal"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/label_hospital_angeles_lindavista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_angeles_lindavista"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/label_hospital_abc_constituyentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_abc_constituyentes"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/label_hospital_abc_observatorio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_abc_observatorio"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/label_hospital_siglo_xxi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_siglo_xxi"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label_hospital_abc_de_santa_fe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospital_abc_de_santa_fe"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/label_hospitals_del_imss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospitals_del_imss"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label_hospitals_del_issste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/hospitals_del_issste"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+
+    </LinearLayout>
 
 </ScrollView>
