@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
@@ -14,27 +13,21 @@ import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
  * Created by diegofranco on 9/21/17.
  */
 
-public class QuickTourFragment extends CoreFragment
-{
+public class QuickTourFragment extends CoreFragment {
 
-    @BindView(R.id.intro_background)
-    View background;
+    @BindView(R.id.intro_background) View background;
 
     int layoutResId;
 
-    @Override
-    protected int getLayoutResId()
-    {
+    @Override protected int getLayoutResId() {
         return layoutResId;
     }
 
-    @Override
-    protected void initFragment(@NonNull View view) {
+    @Override protected void initFragment(@NonNull View view) {
         super.initFragment(view);
     }
 
-    @Override
-    public void onDestroy() {
+    @Override public void onDestroy() {
         super.onDestroy();
     }
 
@@ -52,22 +45,19 @@ public class QuickTourFragment extends CoreFragment
         return frag;
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
+    @Override public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if (!getArguments().containsKey(BACKGROUND_COLOR))
+        if (!getArguments().containsKey(BACKGROUND_COLOR)) {
             throw new RuntimeException("Fragment must contain a \"" + BACKGROUND_COLOR + "\" argument!");
+        }
         mBackgroundColor = getArguments().getInt(BACKGROUND_COLOR);
 
-        if (!getArguments().containsKey(PAGE))
-            throw new RuntimeException("Fragment must contain a \"" + PAGE + "\" argument!");
+        if (!getArguments().containsKey(PAGE)) throw new RuntimeException("Fragment must contain a \"" + PAGE + "\" argument!");
         mPage = getArguments().getInt(PAGE);
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
+    @Override public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         switch (mPage) {
             case 0:
@@ -96,9 +86,7 @@ public class QuickTourFragment extends CoreFragment
         return view;
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState)
-    {
+    @Override public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
         background.setBackgroundColor(mBackgroundColor);
