@@ -15,7 +15,7 @@ import io.github.erikcaffrey.ayudamexico.hostels.presenter.HostelPresenter;
  * Created by hackro on 21/09/17.
  */
 
-public class HostelsHolder extends RecyclerView.ViewHolder  {
+public class HostelsHolder extends RecyclerView.ViewHolder {
 
     private HostelPresenter presenter;
 
@@ -31,12 +31,14 @@ public class HostelsHolder extends RecyclerView.ViewHolder  {
     @BindView(R.id.label_address)
     TextView label_address;
 
-
     @BindView(R.id.label_zone)
     TextView label_zone;
 
     @BindView(R.id.label_update)
     TextView label_update;
+
+    @BindView(R.id.label_more_info)
+    TextView labe_more_info;
 
     @BindView(R.id.button_map)
     Button button_map;
@@ -44,7 +46,7 @@ public class HostelsHolder extends RecyclerView.ViewHolder  {
     public HostelsHolder(View itemView, HostelPresenter presenter) {
         super(itemView);
         this.presenter = presenter;
-        ButterKnife.bind(this,itemView);
+        ButterKnife.bind(this, itemView);
     }
 
     private void onItemClick(final Hostel hospital) {
@@ -56,15 +58,16 @@ public class HostelsHolder extends RecyclerView.ViewHolder  {
         });
     }
 
-        public void render(Hostel hostel) {
-            onItemClick(hostel);
+    public void render(Hostel hostel) {
+        onItemClick(hostel);
 
-            label_name.setText(hostel.getPlace());
-            label_asking.setText(hostel.getNeedsTo());
-            label_recive.setText(hostel.getReceive());
-            label_address.setText(hostel.getAddress());
-            label_zone.setText(hostel.getZone());
-            label_update.setText(hostel.getUpdate());
+        label_name.setText(hostel.getPlace());
+        label_asking.setText(hostel.getNeedsTo());
+        label_recive.setText(hostel.getReceive());
+        label_address.setText(hostel.getAddress());
+        label_zone.setText(hostel.getZone());
+        labe_more_info.setText(hostel.getMoreInfo());
+        label_update.setText(hostel.getUpdate());
 
     }
 
