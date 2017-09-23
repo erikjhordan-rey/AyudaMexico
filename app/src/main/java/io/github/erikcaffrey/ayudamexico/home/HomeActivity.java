@@ -29,6 +29,7 @@ public class HomeActivity extends CoreActivity implements NavigationView.OnNavig
     @Override protected void initActivity()
     {
         super.initActivity();
+        setSupportActionBar(toolbar);
         initActionBarDrawerToggle();
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.getMenu().getItem(0).setChecked(true);

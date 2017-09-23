@@ -4,28 +4,36 @@
   <group android:checkableBehavior="single">
 
     <item
+        android:id="@+id/nav_help_cdmx"
+        android:icon="@drawable/ic_menu_help_cdmx"
+        android:title="@string/help_cdmx"/>
+
+    <item
+        android:id="@+id/nav_announcement"
+        android:icon="@drawable/ic_menu_announcement"
+        android:title="@string/announcement"/>
+
+    <item
+        android:id="@+id/nav_gathering"
+        android:icon="@drawable/ic_menu_gathering"
+        android:title="@string/gathering_center"/>
+
+
+    <item
         android:id="@+id/nav_hospitals"
         android:icon="@drawable/ic_menu_hospitals"
         android:title="@string/hospitals"/>
+
+    <item
+        android:id="@+id/nav_hotels"
+        android:icon="@drawable/ic_menu_hostels"
+        android:title="@string/hostels"/>
 
     <item
         android:id="@+id/nav_blood_bank"
         android:icon="@drawable/ic_menu_blood_bank"
         android:title="@string/blood_bank"/>
 
-    <item
-        android:id="@+id/nav_hotels"
-        android:icon="@drawable/ic_menu_hostels"
-        android:title="@string/hostels"/>
-    <item
-        android:id="@+id/nav_gathering"
-        android:icon="@drawable/ic_menu_gathering"
-        android:title="@string/gathering_center"/>
-
-    <item
-        android:id="@+id/nav_help_cdmx"
-        android:icon="@drawable/ic_menu_help_cdmx"
-        android:title="@string/help_cdmx"/>
     <item
         android:id="@+id/nav_phones"
         android:icon="@drawable/ic_menu_phones"
@@ -37,19 +45,19 @@
         android:title="@string/affected_areas"/>
 
     <item
-        android:id="@+id/nav_real_time"
-        android:icon="@drawable/ic_menu_real_time"
-        android:title="@string/real_time"/>
+      android:id="@+id/nav_real_time"
+      android:icon="@drawable/ic_menu_real_time"
+      android:title="@string/real_time"/>
+
+    <item
+        android:id="@+id/nav_verificados"
+        android:icon="@drawable/ic_menu_verificados"
+        android:title="@string/verificados_map"/>
 
     <item
         android:id="@+id/nav_person_finder"
         android:icon="@drawable/ic_menu_people_finder"
         android:title="@string/person_finder"/>
-
-    <item
-        android:id="@+id/nav_announcement"
-        android:icon="@drawable/ic_menu_announcement"
-        android:title="@string/announcement"/>
 
     <item
         android:id="@+id/nav_donations"

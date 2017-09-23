@@ -10,14 +10,7 @@ import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
 
-public class RealTimeFragment extends CoreFragment {
-
-    public static RealTimeFragment newInstance() {
-        return new RealTimeFragment();
-    }
-
-    private static final String REAL_TIME_URL =
-        "https://www.google.com/maps/d/u/0/viewer?mid=1PwJrCIjz5PNfKAFrY-EX-iEkWH8&ll=19.442351448840228%2C-99.21630083720703&z=12";
+public abstract class RealTimeFragment extends CoreFragment {
 
     @BindView(R.id.web_view_map) WebView realTimeWebView;
     @BindView(R.id.progress) ProgressBar progress;
@@ -32,7 +25,7 @@ public class RealTimeFragment extends CoreFragment {
     }
 
     private void initWebViewPeopleFinder() {
-        realTimeWebView.loadUrl(REAL_TIME_URL);
+        realTimeWebView.loadUrl(getAffectedAreasUrl());
         WebSettings webSettings = realTimeWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         realTimeWebView.setWebViewClient(new WebViewClient() {
@@ -54,5 +47,15 @@ public class RealTimeFragment extends CoreFragment {
             realTimeWebView.stopLoading();
         }
         super.onDestroy();
+    }
+
+    abstract String getAffectedAreasUrl();
+
+    class MapUrl {
+        static final String CDMX =
+            "https://www.google.com/maps/d/u/0/viewer?mid=1PwJrCIjz5PNfKAFrY-EX-iEkWH8&ll=19.442351448840228%2C-99.21630083720703&z=12";
+
+        static final String VERIFICADOS =
+            "https://www.google.com/maps/d/u/0/embed?mid=1_-V97lbdgLFHpx-CtqhLWlJAnYY&hl=en&ll=19.377859971973805%2C-99.15070127080776&z=8";
     }
 }

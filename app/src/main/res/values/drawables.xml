@@ -7,6 +7,7 @@
   <item name="ic_menu_phones" type="drawable">@drawable/ic_call</item>
   <item name="ic_menu_affected_areas" type="drawable">@drawable/ic_location_city</item>
   <item name="ic_menu_real_time" type="drawable">@drawable/ic_tap_and_play</item>
+  <item name="ic_menu_verificados" type="drawable">@drawable/ic_person</item>
   <item name="ic_menu_people_finder" type="drawable">@drawable/ic_add_location</item>
   <item name="ic_menu_announcement" type="drawable">@drawable/ic_chrome_reader</item>
   <item name="ic_menu_donations" type="drawable">@drawable/ic_attach_money</item>
