@@ -1,7 +1,9 @@
 package io.github.erikcaffrey.ayudamexico.announcement.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v4.app.ShareCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,9 +22,11 @@ import io.github.erikcaffrey.ayudamexico.common.BaseViewHolder;
 
 public class AnnouncementAdapter extends BaseAdapter<Announcement> {
 
+    private Activity activity;
     public AnnouncementAdapter() {
         super(R.layout.item_announcement);
     }
+
 
     @Override
     public BaseViewHolder<Announcement> getViewHolder(View view) {
@@ -72,5 +76,13 @@ public class AnnouncementAdapter extends BaseAdapter<Announcement> {
                 itemView.getContext().startActivity(i);
             }
         }
+
+        @OnClick(R.id.button_share)
+        public void shareAnnouncement() {
+            ShareCompat.IntentBuilder.from(activity).setType("text/plain").setText(item.getAnnouncement()).startChooser();
+        }
+
     }
+
+    public void setActivity(Activity activity) {this.activity = activity;}
 }

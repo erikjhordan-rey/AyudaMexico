@@ -3,6 +3,7 @@ package io.github.erikcaffrey.ayudamexico.common;
 import java.util.List;
 
 import erikjhordanrey.base_components.view.BasePresenter;
+import io.github.erikcaffrey.ayudamexico.announcement.model.Announcement;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
@@ -39,5 +40,9 @@ public class ListPresenter<INTERACTOR extends ListInteractor<MODEL>, MODEL> exte
         });
 
         compositeDisposable.add(disposable);
+    }
+
+    public void shareAnnouncement(Announcement item) {
+        getUi().shareAnnouncement(item.getAnnouncement());
     }
 }

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginBottom="8dp">
 
     <LinearLayout
@@ -12,14 +13,28 @@
         android:padding="12dp"
         >
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lugar"
-            android:textColor="@color/colorLink"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lugar"
+                android:textColor="@color/colorLink"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/button_share"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp"
+                app:srcCompat="@drawable/ic_share"
+                />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/label_place"
