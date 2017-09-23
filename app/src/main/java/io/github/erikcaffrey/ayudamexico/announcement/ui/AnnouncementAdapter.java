@@ -89,30 +89,37 @@ public class AnnouncementAdapter extends BaseAdapter<Announcement> {
             announcement.append("\n");
             announcement.append("\n");
 
+            if (item.getPlace()!=null && !item.getPlace().trim().equals("")){
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_place));
+                announcement.append("\n");
+                announcement.append(item.getPlace());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
 
-            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_place));
-            announcement.append("\n");
-            announcement.append(item.getPlace());
-            announcement.append("\n");
-            announcement.append("\n");
+            if (item.getAnnouncement()!=null && !item.getAnnouncement().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_announcement));
+                announcement.append("\n");
+                announcement.append(item.getAnnouncement());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
 
-            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_announcement));
-            announcement.append("\n");
-            announcement.append(item.getAnnouncement());
-            announcement.append("\n");
-            announcement.append("\n");
+            if (item.getContact()!=null && !item.getContact().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_direction));
+                announcement.append("\n");
+                announcement.append(item.getContact());
+                announcement.append("\n");
+                announcement.append("\n");
+            }
 
-            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_direction));
-            announcement.append("\n");
-            announcement.append(item.getContact());
-            announcement.append("\n");
-            announcement.append("\n");
 
-            announcement.append(itemView.getContext().getResources().getString(R.string.lbl_last_update));
-            announcement.append("\n");
-            announcement.append(item.getUpdated());
-            announcement.append("\n");
-
+            if (item.getUpdated()!=null && !item.getUpdated().trim().equals("")) {
+                announcement.append(itemView.getContext().getResources().getString(R.string.lbl_last_update));
+                announcement.append("\n");
+                announcement.append(item.getUpdated());
+                announcement.append("\n");
+            }
             announcement.append("#AyudaMéxico #FuerzaMéxico");
 
 
