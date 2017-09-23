@@ -1,14 +1,16 @@
 package io.github.erikcaffrey.ayudamexico.centers.model;
 
-import java.util.List;
-
+import io.github.erikcaffrey.ayudamexico.common.BaseRetrofitClient;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
+import java.util.List;
 
-public class CenterClient extends CenterRetrofitClient implements CenterService {
+import static io.github.erikcaffrey.ayudamexico.common.Constans.CENTERS_URL;
+
+public class CenterClient extends BaseRetrofitClient<CenterRetrofitService> implements CenterService {
 
     @Override public Observable<List<Center>> getCentersList() {
-        return getService().getCentersList(HELP_URL).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());
+        return service.getCentersList(CENTERS_URL).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());
     }
 }
