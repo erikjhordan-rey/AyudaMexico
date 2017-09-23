@@ -7,4 +7,7 @@ public class Constans {
 
     public final static String HOSTEL_URL =
         "https://script.google.com/macros/s/AKfycbzOsDlIbCFEsgTYpMG_-HI7zHnDNRDu1eT3AEla69DsYDWKsFo/exec";
+
+    public final static String CENTERS_URL =
+        "https://script.google.com/macros/s/AKfycbyTY_1P9g9t5qnTT3YLbTaPk5CuWSiVXputqbZCxTEXNJfFUFQ/exec";
 }
