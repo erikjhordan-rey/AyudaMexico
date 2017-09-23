@@ -12,6 +12,8 @@ public class Help {
     @SerializedName("Link_de_GMaps") private String linkMaps;
     @SerializedName("DETALLE") private String detail;
     @SerializedName("FECHA_DE_ACTUALIZACION") private String updateDate;
+    @SerializedName("HORA") private String time;
+    @SerializedName("STATUS") private String status;
 
     public String getLevelOfUrgency() {
         return levelOfUrgency;
@@ -43,5 +45,13 @@ public class Help {
 
     public String getUpdateDate() {
         return updateDate;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public String getStatus() {
+        return status;
     }
 }

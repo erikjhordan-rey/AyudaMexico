@@ -102,6 +102,8 @@
     <string name="link_gmaps">Link_de_GMaps</string>
     <string name="detail">Detalle</string>
     <string name="date_update">Fecha de actualización</string>
+    <string name="time">Hora</string>
+    <string name="status">Status</string>
     <string name="help_recive">Reciben</string>
     <string name="more_info">Más Información</string>
     <string name="maps">maps</string>

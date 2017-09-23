@@ -38,6 +38,10 @@ public class HelpHolder extends RecyclerView.ViewHolder {
 
     @BindView(R.id.date_update) TextView date_update;
 
+    @BindView(R.id.time) TextView time;
+
+    @BindView(R.id.status) TextView status;
+
     @BindView(R.id.share) ImageView share;
 
     public HelpHolder(View itemView, HelpPresenter presenter) {
@@ -65,6 +69,8 @@ public class HelpHolder extends RecyclerView.ViewHolder {
             zone.setText(help.getZone());
             detail.setText(help.getDetail());
             date_update.setText(help.getUpdateDate());
+            time.setText(help.getTime());
+            status.setText(help.getStatus());
             share.setOnClickListener(new View.OnClickListener() {
                 @Override public void onClick(View view) {
                     final String helpMessage = getMessage(help);
@@ -102,26 +108,30 @@ public class HelpHolder extends RecyclerView.ViewHolder {
     }
 
     private String getMessage(Help help) {
-        final String helpRequired = StringUtils.isNullOrEmpty(help.getHelpRequired()) ? EMPTY :
-            (getString(R.string.help_required)  + ": " + "\n" + help.getHelpRequired() + "\n");
-        final String helpNoRequired = StringUtils.isNullOrEmpty(help.getNotRequired()) ? EMPTY :
-            (getString(R.string.help_no_required) + ": " + "\n" + help.getNotRequired() + "\n");
-        final String address = StringUtils.isNullOrEmpty(help.getAddress()) ? EMPTY
-            : getString(R.string.direction) + ": " + "\n"  + help.getAddress() + "\n";
-        final String zone = StringUtils.isNullOrEmpty(help.getZone()) ? EMPTY
-            : getString(R.string.zone) + ": " + "\n" + help.getZone() + "\n";
-        final String detail = StringUtils.isNullOrEmpty(help.getDetail()) ? EMPTY :
-            getString(R.string.detail) + ": "+ "\n" +  help.getDetail() + "\n";
-        final String updateDate = StringUtils.isNullOrEmpty(help.getUpdateDate()) ? EMPTY :
-            getString(R.string.date_update)+ ": " + "\n"+ help.getUpdateDate() + "\n";
+        final String helpRequired = StringUtils.isNullOrEmpty(help.getHelpRequired()) ? EMPTY
+            : (getString(R.string.help_required) + ": " + "\n" + help.getHelpRequired() + "\n");
+        final String helpNoRequired = StringUtils.isNullOrEmpty(help.getNotRequired()) ? EMPTY
+            : (getString(R.string.help_no_required) + ": " + "\n" + help.getNotRequired() + "\n");
+        final String address =
+            StringUtils.isNullOrEmpty(help.getAddress()) ? EMPTY : getString(R.string.direction) + ": " + "\n" + help.getAddress() + "\n";
+        final String zone =
+            StringUtils.isNullOrEmpty(help.getZone()) ? EMPTY : getString(R.string.zone) + ": " + "\n" + help.getZone() + "\n";
+        final String detail =
+            StringUtils.isNullOrEmpty(help.getDetail()) ? EMPTY : getString(R.string.detail) + ": " + "\n" + help.getDetail() + "\n";
+        final String updateDate = StringUtils.isNullOrEmpty(help.getUpdateDate()) ? EMPTY
+            : getString(R.string.date_update) + ": " + "\n" + help.getUpdateDate() + "\n";
 
-        return "· México Necesita tu ayuda ¬" + "\n" + "\n" +
-                    helpRequired +
-                    helpNoRequired +
-                    address +
-                    zone +
-                    detail +
-                    updateDate + "\n" + "#AyudaMéxico #FuerzaMéxico";
+        return "· México Necesita tu ayuda ¬"
+            + "\n"
+            + "\n"
+            + helpRequired
+            + helpNoRequired
+            + address
+            + zone
+            + detail
+            + updateDate
+            + "\n"
+            + "#AyudaMéxico #FuerzaMéxico";
     }
 
     private String getString(@StringRes int id) {
