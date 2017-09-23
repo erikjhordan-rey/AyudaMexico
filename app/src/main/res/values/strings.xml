@@ -122,6 +122,9 @@
     <string name="want_donate_blood">¿Quieres ayudar? Dona sangre</string>
     <string name="requirements">Requisitos</string>
     <string name="blood_banks">Bancos de sangre en la CDMX</string>
+
+
+
     <string name="hospital_angeles_pedregal">- Hospital Ángeles Pedregal</string>
     <string name="hospital_angeles_lindavista">- Hospital Ángeles Lindavista</string>
     <string name="hospital_abc_constituyentes">- Hospital ABC Constituyentes</string>
@@ -130,5 +133,9 @@
     <string name="hospital_abc_de_santa_fe">- Hospital ABC de Santa Fe</string>
     <string name="hospitals_del_imss">- Hospitales del IMSS</string>
     <string name="hospitals_del_issste">- Hospitales del ISSSTE</string>
+
+
+
+
 
 </resources>
