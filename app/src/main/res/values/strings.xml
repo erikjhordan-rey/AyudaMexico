@@ -1,10 +1,10 @@
 <resources>
-  <string name="app_name">Ayuda México</string>
+    <string name="app_name">Ayuda México</string>
 
-  <string name="navigation_drawer_open">Open navigation drawer</string>
-  <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-  <string name="action_settings">Settings</string>
+    <string name="action_settings">Settings</string>
 
   <string name="help_cdmx">Ayuda Requerida</string>
   <string name="gathering_center">Centros de Acopio</string>
@@ -22,43 +22,43 @@
   <string name="faqs">Preguntas Frecuentes</string>
 
 
-  <string name="hospital_1">Hospital Angeles Pedregal</string>
-  <string name="hospital_2">Hospital ABC de Constituyentes</string>
-  <string name="hospital_3">Hospital Ángeles Lindavista</string>
-  <string name="hospital_4">Hospital ABC de Observatorio</string>
-  <string name="hospital_5">Hospital Siglo XXI</string>
-  <string name="hospital_6">Hospital ABC de Santa Fe</string>
-  <string name="hospital_7">IMSS e ISSTE abiertos a la población!</string>
-  <string name="hospital_8">Hospital Español Polanco</string>
+    <string name="hospital_1">Hospital Angeles Pedregal</string>
+    <string name="hospital_2">Hospital ABC de Constituyentes</string>
+    <string name="hospital_3">Hospital Ángeles Lindavista</string>
+    <string name="hospital_4">Hospital ABC de Observatorio</string>
+    <string name="hospital_5">Hospital Siglo XXI</string>
+    <string name="hospital_6">Hospital ABC de Santa Fe</string>
+    <string name="hospital_7">IMSS e ISSTE abiertos a la población!</string>
+    <string name="hospital_8">Hospital Español Polanco</string>
 
-  <string name="provider_infinitum_cdmx">Infinitum movil en CDMX</string>
-  <string name="provider_infinitum">Infinitum</string>
-  <string name="provider_izzi">Izzi</string>
-  <string name="infinitum_network_1">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> 6865543305  \n <b>Password:</b> 21100 </string>
-  <string name="infinitum_network_2">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> 2299819515  \n <b>Password:</b> 91727 </string>
-  <string name="infinitum_network_3">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> toby97	  \n <b>Password:</b> 91001700 </string>
-  <string name="infinitum_network_4">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Meliverdia@prodigy.net.mx
+    <string name="provider_infinitum_cdmx">Infinitum movil en CDMX</string>
+    <string name="provider_infinitum">Infinitum</string>
+    <string name="provider_izzi">Izzi</string>
+    <string name="infinitum_network_1">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> 6865543305  \n <b>Password:</b> 21100 </string>
+    <string name="infinitum_network_2">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> 2299819515  \n <b>Password:</b> 91727 </string>
+    <string name="infinitum_network_3">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> toby97	  \n <b>Password:</b> 91001700 </string>
+    <string name="infinitum_network_4">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Meliverdia@prodigy.net.mx
 	  \n <b>Password:</b>1234 </string>
-  <string name="infinitum_network_5">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcoac0044 </string>
-  <string name="infinitum_network_6">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx7222153423	  \n <b>Password:</b> lalo123 </string>
-  <string name="izzi_1">\n <b>Red:</b> Izzi \n  <b>User:</b> dvskateboards@hotmail.com
+    <string name="infinitum_network_5">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcoac0044 </string>
+    <string name="infinitum_network_6">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx7222153423	  \n <b>Password:</b> lalo123 </string>
+    <string name="izzi_1">\n <b>Red:</b> Izzi \n  <b>User:</b> dvskateboards@hotmail.com
 	  \n <b>Password:</b> cablevision </string>
-  <string name="infinitum_network_7">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> cafeteria	  \n <b>Password:</b> cafeteria </string>
-  <string name="infinitum_network_8">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> etc2004	  \n <b>Password:</b> calabaza </string>
-  <string name="infinitum_network_9">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Tmx8032371	  \n <b>Password:</b> 8032371 </string>
-  <string name="infinitum_network_10">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> usolis	  \n <b>Password:</b> ssm </string>
-  <string name="infinitum_network_11">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> rojogomez	  \n <b>Password:</b> rojogomez </string>
-  <string name="izzi_2">\n <b>Red:</b> Izzi \n <b>User:</b> flhpaco24@yahoo.com
+    <string name="infinitum_network_7">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> cafeteria	  \n <b>Password:</b> cafeteria </string>
+    <string name="infinitum_network_8">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> etc2004	  \n <b>Password:</b> calabaza </string>
+    <string name="infinitum_network_9">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> Tmx8032371	  \n <b>Password:</b> 8032371 </string>
+    <string name="infinitum_network_10">\n <b>Red:</b> Infinitum Movil \n <b>User:</b> usolis	  \n <b>Password:</b> ssm </string>
+    <string name="infinitum_network_11">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> rojogomez	  \n <b>Password:</b> rojogomez </string>
+    <string name="izzi_2">\n <b>Red:</b> Izzi \n <b>User:</b> flhpaco24@yahoo.com
 	  \n <b>Password:</b> Paco1985 </string>
-  <string name="infinitum_network_12">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> hgvg	  \n <b>Password:</b> 2333 </string>
-  <string name="izzi_3">\n <b>Red:</b> Izzi \n <b>User:</b> estradagarrido2787
+    <string name="infinitum_network_12">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> hgvg	  \n <b>Password:</b> 2333 </string>
+    <string name="izzi_3">\n <b>Red:</b> Izzi \n <b>User:</b> estradagarrido2787
 	  \n <b>Password:</b> mexico17 </string>
-  <string name="infinitum_network_13">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcocac0044</string>
-  <string name="infinitum_network_14">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx9996886996	  \n <b>Password:</b> password</string>
+    <string name="infinitum_network_13">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> mixcoac0044	  \n <b>Password:</b> mixcocac0044</string>
+    <string name="infinitum_network_14">\n <b>Red:</b> Infinitum Movil \n  <b>User:</b> tmx9996886996	  \n <b>Password:</b> password</string>
 
 
-  <string name="requirements_blood_bank">
-    \n - Identificación oficial(IFE/INE, cartilla militar, pasaporte, etc.)
+    <string name="requirements_blood_bank">
+    - Identificación oficial(IFE/INE, cartilla militar, pasaporte, etc.)
     \n - Edad entre 18 y 50 años
     \n - Peso mínimo de 50kg
     \n - Estar hidratado
@@ -70,24 +70,13 @@
     \n - No haberse vacunado en los últimos 30 días</string>
 
 
-  <string name="hospitals_blood_bank">
-    \n - Hospital Ángeles Pedregal
-    \n - Hospital Ángeles Lindavista
-    \n - Hospital ABC Constituyentes
-    \n - Hospital ABC Observatorio
-    \n - Hospital Siglo XXI
-    \n - Hospital ABC de Santa Fe
-    \n - Hospitales del IMSS
-    \n - Hospitales del ISSSTE
-  </string>
-
-  <string name="advice_house">
+    <string name="advice_house">
     \n -  Revisa la estructura de tu casa, las grietas en 45° son las más importantes, si las notas no te quedes en esa casa. Revisa las tomas de gas, si detectas fugas, cierra inmediatamente las tomas y reporta a los bomberos.
     \n -  Revisa las tomas de agua, si detectas fugas, cierra las llaves de paso y reporta a protección civil.
     \n - Evita saturar las vías de comunicación, en específico líneas telefónicas.
   </string>
 
-  <string name="advice_internet">
+    <string name="advice_internet">
      \n - Usar Twitter de manera organizada y consciente.
      \n - Hashtag #sismo es para información general.
      \n - Hashtag #sismoCDMX y #sismoCDMX19sep17 para la ciudad de méxico.
@@ -100,36 +89,54 @@
      \n - Reporta en Google las personas encontradas, rescatadas o en búsqueda aquí.
   </string>
 
-  <string name="advice_help">
+    <string name="advice_help">
     \n - Usa tu carro solo en caso de extrema necesidad y urgencia.
     \n - Checar las necesidades de cada lugar, llevar solo lo necesario.
     \n - Revisa los lugares afectados cercanos a tu hogar, y trata de trasladarte lo menos posible.
     \n - Revisa el mapa de necesidades.
   </string>
-  <string name="help_required">Ayuda Requerida</string>
-  <string name="help_no_required">Que no se requiere</string>
-  <string name="direction">Dirección</string>
-  <string name="zone">Zona</string>
-  <string name="link_gmaps">Link_de_GMaps</string>
-  <string name="detail">Detalle</string>
-  <string name="date_update">Fecha de actualización</string>
-  <string name="help_recive">Reciben</string>
-  <string name="more_info">Más Información</string>
-  <string name="maps">maps</string>
-  <string name="no_data">No se ha encontrado información</string>
+    <string name="help_required">Ayuda Requerida</string>
+    <string name="help_no_required">Que no se requiere</string>
+    <string name="direction">Dirección</string>
+    <string name="zone">Zona</string>
+    <string name="link_gmaps">Link_de_GMaps</string>
+    <string name="detail">Detalle</string>
+    <string name="date_update">Fecha de actualización</string>
+    <string name="help_recive">Reciben</string>
+    <string name="more_info">Más Información</string>
+    <string name="maps">maps</string>
+    <string name="no_data">No se ha encontrado información</string>
 
-  <string name="leer_mas">Leer Más</string>
+    <string name="leer_mas">Leer Más</string>
 
-  <string name="quick_tour_title_1">Hospitales</string>
-  <string name="quick_tour_desc_1">Tendrás información de las cosas que se necesitan y la dirección.</string>
-  <string name="quick_tour_title_2">Albergues</string>
-  <string name="quick_tour_desc_2">Te Decimos que necesitan los albergues y como llegar a ellos.</string>
-  <string name="quick_tour_title_3">Información en Tiempo Real</string>
-  <string name="quick_tour_desc_3">Aqui podrás ver toda la información en tiempo real.</string>
-  <string name="quick_tour_title_4">Localizador de personas</string>
-  <string name="quick_tour_desc_4">Accesso rápido al localizador de personas.</string>
-  <string name="quick_tour_skip_text">Comenzar</string>
-  <string name="quiero_ayudar">Quiero Ayudar</string>
-  <string name="description_share">Compartir</string>
+    <string name="quick_tour_title_1">Hospitales</string>
+    <string name="quick_tour_desc_1">Tendrás información de las cosas que se necesitan y la dirección.</string>
+    <string name="quick_tour_title_2">Albergues</string>
+    <string name="quick_tour_desc_2">Te Decimos que necesitan los albergues y como llegar a ellos.</string>
+    <string name="quick_tour_title_3">Información en Tiempo Real</string>
+    <string name="quick_tour_desc_3">Aqui podrás ver toda la información en tiempo real.</string>
+    <string name="quick_tour_title_4">Localizador de personas</string>
+    <string name="quick_tour_desc_4">Accesso rápido al localizador de personas.</string>
+    <string name="quick_tour_skip_text">Comenzar</string>
+    <string name="quiero_ayudar">Quiero Ayudar</string>
+    <string name="description_share">Compartir</string>
+    <string name="want_donate_blood">¿Quieres ayudar? Dona sangre</string>
+    <string name="requirements">Requisitos</string>
+    <string name="blood_banks">Bancos de sangre en la CDMX</string>
+
+
+
+    <string name="hospital_angeles_pedregal">- Hospital Ángeles Pedregal</string>
+    <string name="hospital_angeles_lindavista">- Hospital Ángeles Lindavista</string>
+    <string name="hospital_abc_constituyentes">- Hospital ABC Constituyentes</string>
+    <string name="hospital_abc_observatorio">- Hospital ABC Observatorio</string>
+    <string name="hospital_siglo_xxi">- Hospital Siglo XXI</string>
+    <string name="hospital_abc_de_santa_fe">- Hospital ABC de Santa Fe</string>
+    <string name="hospitals_del_imss">- Hospitales del IMSS</string>
+    <string name="hospitals_del_issste">- Hospitales del ISSSTE</string>
+
+
+
+
 
 </resources>
