@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/card_view_layout_padding">
+
+        <TextView
+            android:id="@+id/txt_center_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Corporativo Liverpool E1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/center_asking"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_center_asking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Gasas estériles, Gel antibacterial, Vendas, Alcohol, Cubre bocas\nAlgodón, Suero,Agua oxigenada,Paracetamol,Ibuprofeno,Naproxeno,Pañales para bebé,Jabón neutro,Ropa limpia y en buen estado."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/common_address"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_center_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Mario Pani #200 Col. Santa Fe Cuajimalpa, Del. Cuaimalpa de Morelos"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/common_phone"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_center_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="5543704086"/>
+
+        <TextView
+            android:id="@+id/label_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/more_info"
+            android:textColor="@color/colorLink"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/label_more_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/common_last_update"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_center_last_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="21-Sep-2017 10:57 am"/>
+
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:text="@string/common_map"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

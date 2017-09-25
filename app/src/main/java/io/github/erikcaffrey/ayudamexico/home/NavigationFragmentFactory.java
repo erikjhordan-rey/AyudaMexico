@@ -6,7 +6,8 @@ import io.github.erikcaffrey.ayudamexico.announcement.ui.AnnouncementFragment;
 import io.github.erikcaffrey.ayudamexico.areas.AreasFragment;
 import io.github.erikcaffrey.ayudamexico.areas.CdmxMapFragment;
 import io.github.erikcaffrey.ayudamexico.bloodbank.BloodBankFragment;
-import io.github.erikcaffrey.ayudamexico.centers.ui.GatheringFragment;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.ui.GatheringFragment;
+import io.github.erikcaffrey.ayudamexico.centers.main.view.CentersMainFragment;
 import io.github.erikcaffrey.ayudamexico.donations.DonationsMainFragment;
 import io.github.erikcaffrey.ayudamexico.faqs.QuestionsFragment;
 import io.github.erikcaffrey.ayudamexico.finder.PeopleFinderFragment;
@@ -36,7 +37,7 @@ class NavigationFragmentFactory {
                 title = R.string.hostels;
                 break;
             case R.id.nav_gathering:
-                fragment = GatheringFragment.newInstance();
+                fragment = CentersMainFragment.newInstance();
                 title = R.string.gathering_center;
                 break;
             case R.id.nav_help_cdmx:

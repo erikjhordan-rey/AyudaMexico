@@ -1,4 +1,4 @@
-package io.github.erikcaffrey.ayudamexico.centers.ui;
+package io.github.erikcaffrey.ayudamexico.centers.gathering.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -11,7 +11,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import io.github.erikcaffrey.ayudamexico.R;
-import io.github.erikcaffrey.ayudamexico.centers.model.Center;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.Center;
 import io.github.erikcaffrey.ayudamexico.common.BaseAdapter;
 import io.github.erikcaffrey.ayudamexico.common.BaseViewHolder;
 

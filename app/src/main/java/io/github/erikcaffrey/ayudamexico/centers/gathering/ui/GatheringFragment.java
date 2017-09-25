@@ -1,10 +1,9 @@
-package io.github.erikcaffrey.ayudamexico.centers.ui;
+package io.github.erikcaffrey.ayudamexico.centers.gathering.ui;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -15,18 +14,16 @@ import java.util.List;
 
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
-import io.github.erikcaffrey.ayudamexico.centers.model.Center;
-import io.github.erikcaffrey.ayudamexico.centers.model.CenterClient;
-import io.github.erikcaffrey.ayudamexico.centers.model.CenterInteractor;
-import io.github.erikcaffrey.ayudamexico.centers.presenter.GatheringPresenter;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.Center;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.CenterClient;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.CenterInteractor;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.presenter.GatheringPresenter;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
 import io.github.erikcaffrey.ayudamexico.hospitals.model.Hospital;
-import io.github.erikcaffrey.ayudamexico.hospitals.model.HospitalClient;
-import io.github.erikcaffrey.ayudamexico.hospitals.model.HospitalInteractor;
-import io.github.erikcaffrey.ayudamexico.hospitals.presenter.HospitalPresenter;
-import io.github.erikcaffrey.ayudamexico.hospitals.ui.adapter.HospitalAdapter;
 
 public class GatheringFragment extends CoreFragment implements GatheringPresenter.Ui{
+
+    public static final String TITLE = "Varios";
 
     @BindView(R.id.recycler_center)
     RecyclerView recyclerCenter;
@@ -45,7 +42,7 @@ public class GatheringFragment extends CoreFragment implements GatheringPresente
     private GatheringPresenter helpPresenter;
 
     @Override protected int getLayoutResId() {
-        return R.layout.gathering_fragment;
+        return R.layout.centers_gathering_fragment;
     }
 
     @Override protected void initFragment(@NonNull View view) {
