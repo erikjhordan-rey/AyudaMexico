@@ -19,7 +19,7 @@ public class CentersMainFragmentPagerAdapter extends FragmentPagerAdapter {
             PueblaCollectorFragment.newInstance(),
             RescateMXFragment.newInstance()
     };
-    private String titles[] = new String[]{"Sismo MX", "Puebla","Rescate MX"};
+    private String titles[] = new String[]{"Ayuda Sismo MX", "Puebla","Rescate MX"};
 
     public CentersMainFragmentPagerAdapter(FragmentManager childFragmentManager, Context context) {
         super(childFragmentManager);
