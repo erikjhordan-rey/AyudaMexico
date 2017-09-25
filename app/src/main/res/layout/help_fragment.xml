@@ -3,9 +3,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorGrey"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
   <ProgressBar
       android:id="@+id/progress_help"
       android:layout_width="wrap_content"
@@ -21,6 +22,40 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       >
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/help_results_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+          <TextView
+              android:id="@+id/help_results"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:layout_gravity="center_vertical"
+              android:layout_marginStart="16dp"
+              android:layout_marginEnd="16dp"
+              android:textColor="#000000"
+              android:alpha=".87"/>
+
+          <ImageView
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_marginEnd="16dp"
+              android:layout_marginRight="16dp"
+              app:srcCompat="@drawable/ic_info"
+              tools:ignore="ContentDescription"
+              android:alpha=".87"/>
+
+        </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_help"
@@ -29,6 +64,8 @@
         android:clipToPadding="false"
         android:padding="16dp"
         />
+      </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
   </android.support.v4.widget.SwipeRefreshLayout>
 
 </RelativeLayout>
