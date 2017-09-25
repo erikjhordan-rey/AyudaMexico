@@ -16,6 +16,7 @@ import io.github.erikcaffrey.ayudamexico.hospitals.ui.HospitalsFragment;
 import io.github.erikcaffrey.ayudamexico.hostels.ui.HostelsFragment;
 import io.github.erikcaffrey.ayudamexico.internet.InternetFragment;
 import io.github.erikcaffrey.ayudamexico.phones.PhoneListsFragment;
+import io.github.erikcaffrey.ayudamexico.support.ui.SupportFragment;
 
 class NavigationFragmentFactory {
 
@@ -77,6 +78,11 @@ class NavigationFragmentFactory {
             case R.id.nav_faqs:
                 fragment = QuestionsFragment.newInstance();
                 title = R.string.faqs;
+                break;
+
+            case R.id.nav_support:
+                fragment = SupportFragment.newInstance();
+                title = R.string.title_support;
                 break;
         }
         return fragment;

@@ -1,5 +1,7 @@
 package io.github.erikcaffrey.ayudamexico.common;
 
+import com.google.gson.Gson;
+
 import java.lang.reflect.ParameterizedType;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -12,8 +14,14 @@ public abstract class BaseRetrofitClient<T> {
     public T service;
 
     private final static String URL = "https://script.google.com/";
+    private String customUrl;
 
     public BaseRetrofitClient() {
+        initRetrofit();
+    }
+
+    public BaseRetrofitClient(String baseUrl) {
+        customUrl = baseUrl;
         initRetrofit();
     }
 
@@ -23,8 +31,8 @@ public abstract class BaseRetrofitClient<T> {
     }
 
     private Retrofit retrofitBuilder() {
-        return new Retrofit.Builder().baseUrl(URL)
-            .addConverterFactory(GsonConverterFactory.create())
+        return new Retrofit.Builder().baseUrl(customUrl == null? URL : customUrl)
+            .addConverterFactory(GsonConverterFactory.create(getGsonConfig()))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(getOkHttpClient())
             .build();
@@ -36,6 +44,10 @@ public abstract class BaseRetrofitClient<T> {
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         httpClient.addInterceptor(logging);
         return httpClient.build();
+    }
+
+    protected Gson getGsonConfig(){
+        return new Gson();
     }
 
     @SuppressWarnings("unchecked") private Class<T> getGenericApiClass() {
