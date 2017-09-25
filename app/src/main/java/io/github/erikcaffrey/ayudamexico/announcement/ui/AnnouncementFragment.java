@@ -26,7 +26,6 @@ public class AnnouncementFragment extends SimpleListFragment<Announcement>{
 
     }
 
-    @Override
     public void shareAnnouncement(String message) {
         ShareCompat.IntentBuilder.from(getActivity()).setType("text/plain").setText(message).startChooser();
     }

@@ -16,6 +16,7 @@ public class AnnouncementInteractor implements ListInteractor<Announcement>{
     public AnnouncementInteractor(AnnouncementService service) {
         this.service = service;
     }
+
     @Override
     public Observable<List<Announcement>> getItems() {
         return service.getAnnouncements();
