@@ -16,6 +16,4 @@ public interface SimpleListUi<MODEL> extends BasePresenterLoader.Ui {
     void showErrorMessage();
 
     void showDetails(MODEL item);
-
-    void shareAnnouncement(String announcement);
 }

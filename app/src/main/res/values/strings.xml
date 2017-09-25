@@ -150,6 +150,8 @@
   <string name="common_last_update">Última actualización</string>
   <string name="common_map">Mapa</string>
     <string name="disclaimer">Nos encontramos aún trabajando en la limpieza de la base de datos y es posible que algunos registros figuren sin información. Agradecemos su comprensión.</string>
+    <string name="support">Apoyo</string>
+    <string name="title_support">Apoyo</string>
 
 
 </resources>

@@ -42,7 +42,4 @@ public class ListPresenter<INTERACTOR extends ListInteractor<MODEL>, MODEL> exte
         compositeDisposable.add(disposable);
     }
 
-    public void shareAnnouncement(Announcement item) {
-        getUi().shareAnnouncement(item.getAnnouncement());
-    }
 }
