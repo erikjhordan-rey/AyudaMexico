@@ -42,7 +42,6 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
     private HelpAdapter adapter;
     private HelpPresenter helpPresenter;
 
-    // ints that will hold number of results depending on level urgency
     private int lowUrgency, mediumUrgency, highUrgency, otherUrgency;
 
     @Override protected int getLayoutResId() {
@@ -116,7 +115,7 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         highTV.setText(new StringBuilder("Urgencia Alta: ").append(highUrgency));
         mediumTV.setText(new StringBuilder("Urgencia Media: ").append(mediumUrgency));
 
-        alert.setTitle("Nivel de Urgencias");
+        alert.setTitle("Total de Ayuda Requerida por Nivel de Urgencia");
         alert.setNegativeButton("Cerrar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
