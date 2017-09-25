@@ -9,9 +9,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-
-import java.util.List;
-
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.centers.rescatemx.model.Record;
@@ -20,25 +17,31 @@ import io.github.erikcaffrey.ayudamexico.centers.rescatemx.service.RescateMXClie
 import io.github.erikcaffrey.ayudamexico.centers.rescatemx.service.RescateMXInteractor;
 import io.github.erikcaffrey.ayudamexico.centers.rescatemx.ui.adapter.RescateMXAdapter;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
+import java.util.List;
 
 public class RescateMXFragment extends CoreFragment implements RescateMXPresenter.Ui {
 
-    @BindView(R.id.recycler_center)
-    RecyclerView recycler_center;
-    @BindView(R.id.activity_main_swipe_refresh_layout)
-    SwipeRefreshLayout swipeRefreshLayout;
-    @BindView(R.id.progress_center)
-    ProgressBar progress_center;
+    @BindView(R.id.recycler_center) RecyclerView recycler_center;
+    @BindView(R.id.activity_main_swipe_refresh_layout) SwipeRefreshLayout swipeRefreshLayout;
+    @BindView(R.id.progress_center) ProgressBar progress_center;
 
     public static RescateMXFragment newInstance() {
         return new RescateMXFragment();
     }
 
     private RescateMXAdapter adapter;
-    private RescateMXPresenter helpPresenter;
+    private RescateMXPresenter rescatePresenter;
 
     @Override protected int getLayoutResId() {
         return R.layout.rescatemx_fragment;
+    }
+
+    @Override protected void initPresenter() {
+        super.initPresenter();
+        RescateMXClient rescateMXClient = new RescateMXClient();
+        RescateMXInteractor helpInteractor = new RescateMXInteractor(rescateMXClient);
+        rescatePresenter = new RescateMXPresenter(helpInteractor);
+        rescatePresenter.setUi(this);
     }
 
     @Override protected void initFragment(@NonNull View view) {
@@ -47,44 +50,6 @@ public class RescateMXFragment extends CoreFragment implements RescateMXPresente
         initializeRecyclerView();
         initSwipe();
         loadData();
-    }
-
-    private void initSwipe() {
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                refreshContent();
-            }
-        });
-    }
-
-    private void refreshContent() {
-        loadData();
-        swipeRefreshLayout.setRefreshing(false);
-    }
-
-    @Override protected void initPresenter() {
-        super.initPresenter();
-        RescateMXClient rescateMXClient = new RescateMXClient();
-        RescateMXInteractor helpInteractor = new RescateMXInteractor(rescateMXClient);
-        helpPresenter = new RescateMXPresenter(helpInteractor);
-
-    }
-
-    public void loadData(){
-
-        helpPresenter.setUi(this);
-        helpPresenter.loadHospitalList();
-    }
-
-    private void initializeAdapter() {
-        adapter = new RescateMXAdapter(helpPresenter);
-    }
-
-    private void initializeRecyclerView() {
-        GridLayoutManager lLayout = new GridLayoutManager(getActivity(), 1);
-        recycler_center.setLayoutManager(lLayout);
-        recycler_center.setAdapter(adapter);
     }
 
     @Override public void showRescateMXList(List<Record> helpList) {
@@ -115,6 +80,33 @@ public class RescateMXFragment extends CoreFragment implements RescateMXPresente
 
     @Override public void onDestroy() {
         super.onDestroy();
-        helpPresenter.terminate();
+        rescatePresenter.terminate();
+    }
+
+    private void initSwipe() {
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override public void onRefresh() {
+                refreshContent();
+            }
+        });
+    }
+
+    private void refreshContent() {
+        loadData();
+        swipeRefreshLayout.setRefreshing(false);
+    }
+
+    public void loadData() {
+        rescatePresenter.loadHospitalList();
+    }
+
+    private void initializeAdapter() {
+        adapter = new RescateMXAdapter(rescatePresenter);
+    }
+
+    private void initializeRecyclerView() {
+        GridLayoutManager lLayout = new GridLayoutManager(getActivity(), 1);
+        recycler_center.setLayoutManager(lLayout);
+        recycler_center.setAdapter(adapter);
     }
 }

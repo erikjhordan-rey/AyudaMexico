@@ -1,46 +1,67 @@
 package io.github.erikcaffrey.ayudamexico.centers.puebla.view;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.annotation.NonNull;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-
-import java.util.List;
-
+import android.widget.ProgressBar;
+import android.widget.Toast;
 import butterknife.BindView;
 import io.github.erikcaffrey.ayudamexico.R;
 import io.github.erikcaffrey.ayudamexico.centers.puebla.model.CollectorCenter;
 import io.github.erikcaffrey.ayudamexico.centers.puebla.presenter.PueblaCollectorPresenter;
 import io.github.erikcaffrey.ayudamexico.common.CoreFragment;
-
-/**
- * Created by Armando on 24/9/2017.
- */
+import java.util.List;
 
 public class PueblaCollectorFragment extends CoreFragment implements PueblaCollectorView {
 
     private PueblaCollectorPresenter presenter;
 
-    @BindView(R.id.collector_recycler_view)
-    RecyclerView rvCollector;
+    @BindView(R.id.collector_recycler_view) RecyclerView rvCollector;
     private PueblaCollectorAdapter collectorAdapter;
+    @BindView(R.id.collector_swipe_refresh) SwipeRefreshLayout swipeRefreshLayout;
+    @BindView(R.id.collector_progress) ProgressBar progress_center;
 
-    public static PueblaCollectorFragment newInstance(){return new PueblaCollectorFragment();}
+    public static PueblaCollectorFragment newInstance() {
+        return new PueblaCollectorFragment();
+    }
 
-    @Override
-    protected int getLayoutResId() {
+    @Override protected int getLayoutResId() {
         return R.layout.centers_puebla_fragment;
     }
 
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        initRecyclerView();
+    @Override protected void initPresenter() {
+        super.initPresenter();
         presenter = new PueblaCollectorPresenter(this);
-        presenter.loadCollectorCenter();
+    }
 
+    @Override protected void initFragment(@NonNull View view) {
+        super.initFragment(view);
+        initRecyclerView();
+        loadData();
+        initSwipe();
+    }
+
+    @Override public void showCollectorCenters(List<CollectorCenter> collectorCenters) {
+        collectorAdapter.setCenterList(collectorCenters);
+        collectorAdapter.notifyDataSetChanged();
+    }
+
+    @Override public void showEmptyMessage() {
+        Toast.makeText(getContext(), "No se ha encontrado información", Toast.LENGTH_LONG).show();
+    }
+
+    @Override public void showErrorMessage() {
+        Toast.makeText(getContext(), "Ha Ocurrido un error", Toast.LENGTH_LONG).show();
+    }
+
+    @Override public void hideLoading() {
+        progress_center.setVisibility(View.GONE);
+    }
+
+    @Override public void showLoading() {
+        progress_center.setVisibility(View.VISIBLE);
     }
 
     private void initRecyclerView() {
@@ -49,9 +70,16 @@ public class PueblaCollectorFragment extends CoreFragment implements PueblaColle
         rvCollector.setAdapter(collectorAdapter);
     }
 
-    @Override
-    public void showCollectorCenters(List<CollectorCenter> collectorCenters) {
-        collectorAdapter.setCenterList(collectorCenters);
-        collectorAdapter.notifyDataSetChanged();
+    private void loadData() {
+        presenter.loadCollectorCenter();
+    }
+
+    private void initSwipe() {
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override public void onRefresh() {
+                loadData();
+                swipeRefreshLayout.setRefreshing(false);
+            }
+        });
     }
 }
