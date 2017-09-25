@@ -3,6 +3,7 @@ package io.github.erikcaffrey.ayudamexico.common;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -75,6 +76,8 @@ public abstract class SimpleListFragment<MODEL> extends CoreFragment implements 
     }
 
     private void initSwipe() {
+        swipeRefreshLayout.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override public void onRefresh() {
                 refreshContent();
@@ -111,5 +114,9 @@ public abstract class SimpleListFragment<MODEL> extends CoreFragment implements 
     @Override public void onDestroy() {
         super.onDestroy();
         listPresenter.terminate();
+    }
+
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
     }
 }

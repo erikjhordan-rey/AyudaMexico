@@ -3,6 +3,7 @@ package io.github.erikcaffrey.ayudamexico.hostels.ui;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -46,6 +47,8 @@ public class HostelsFragment extends CoreFragment implements HostelPresenter.Ui 
         hostelPresenter.setUi(this);
     }
     private void initSwipe() {
+        swipe_refresh_hostels.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipe_refresh_hostels.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -112,4 +115,7 @@ public class HostelsFragment extends CoreFragment implements HostelPresenter.Ui 
         progress_hostels.setVisibility(View.VISIBLE);
     }
 
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
+    }
 }

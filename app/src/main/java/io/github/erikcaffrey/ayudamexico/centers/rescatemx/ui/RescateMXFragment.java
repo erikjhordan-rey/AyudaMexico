@@ -3,6 +3,7 @@ package io.github.erikcaffrey.ayudamexico.centers.rescatemx.ui;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -84,6 +85,8 @@ public class RescateMXFragment extends CoreFragment implements RescateMXPresente
     }
 
     private void initSwipe() {
+        swipeRefreshLayout.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override public void onRefresh() {
                 refreshContent();
@@ -108,5 +111,9 @@ public class RescateMXFragment extends CoreFragment implements RescateMXPresente
         GridLayoutManager lLayout = new GridLayoutManager(getActivity(), 1);
         recycler_center.setLayoutManager(lLayout);
         recycler_center.setAdapter(adapter);
+    }
+
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
     }
 }

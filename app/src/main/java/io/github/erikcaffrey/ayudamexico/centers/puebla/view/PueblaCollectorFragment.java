@@ -1,6 +1,7 @@
 package io.github.erikcaffrey.ayudamexico.centers.puebla.view;
 
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -75,11 +76,17 @@ public class PueblaCollectorFragment extends CoreFragment implements PueblaColle
     }
 
     private void initSwipe() {
+        swipeRefreshLayout.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override public void onRefresh() {
                 loadData();
                 swipeRefreshLayout.setRefreshing(false);
             }
         });
+    }
+
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
     }
 }

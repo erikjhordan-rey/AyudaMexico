@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ShareCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -86,6 +87,8 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
     }
 
     private void initSwipe() {
+        swipeRefreshLayout.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override public void onRefresh() {
                 refreshContent();
@@ -97,7 +100,6 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         loadData();
         swipeRefreshLayout.setRefreshing(false);
     }
-
 
     // Dialog displaying the number of results per level of urgency
     private void showHelpInfo() {
@@ -117,8 +119,7 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
 
         alert.setTitle("Total de Ayuda Requerida por Nivel de Urgencia");
         alert.setNegativeButton("Cerrar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
+            @Override public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
             }
         });
@@ -127,8 +128,7 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
     }
 
     // on click listener to show dialog above
-    @OnClick(R.id.help_results_ll)
-    public void onClickResults() {
+    @OnClick(R.id.help_results_ll) public void onClickResults() {
         showHelpInfo();
     }
 
@@ -142,12 +142,12 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         helpResultsTV.setText(new StringBuilder("Resultados: ").append(helpList.size()));
 
         // count number of results per level of emergency (alto, medio, and bajo)
-        for (Help help: helpList) {
+        for (Help help : helpList) {
             String urgency = help.getLevelOfUrgency();
             if (urgency != null) {
                 if (urgency.toLowerCase().equals("alto")) {
                     highUrgency++;
-                } else if (urgency.toLowerCase().equals("medio")){
+                } else if (urgency.toLowerCase().equals("medio")) {
                     mediumUrgency++;
                 } else if (urgency.toLowerCase().equals("bajo")) {
                     lowUrgency++;
@@ -191,5 +191,9 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
     @Override public void onDestroy() {
         super.onDestroy();
         helpPresenter.terminate();
+    }
+
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
     }
 }

@@ -3,6 +3,7 @@ package io.github.erikcaffrey.ayudamexico.centers.gathering.ui;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -54,6 +55,8 @@ public class GatheringFragment extends CoreFragment implements GatheringPresente
     }
 
     private void initSwipe() {
+        swipeRefreshLayout.setColorSchemeColors(getColor(R.color.colorPrimaryDark), getColor(R.color.colorPrimary),
+            getColor(R.color.colorAccent));
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -118,5 +121,9 @@ public class GatheringFragment extends CoreFragment implements GatheringPresente
     @Override public void onDestroy() {
         super.onDestroy();
         helpPresenter.terminate();
+    }
+
+    private int getColor(int color) {
+        return ContextCompat.getColor(getActivity(), color);
     }
 }
