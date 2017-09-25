@@ -1,11 +1,11 @@
-package io.github.erikcaffrey.ayudamexico.centers.presenter;
+package io.github.erikcaffrey.ayudamexico.centers.gathering.presenter;
 
 import java.util.List;
 
 import erikjhordanrey.base_components.view.BasePresenter;
 import erikjhordanrey.base_components.view.BasePresenterLoader;
-import io.github.erikcaffrey.ayudamexico.centers.model.Center;
-import io.github.erikcaffrey.ayudamexico.centers.model.CenterInteractor;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.Center;
+import io.github.erikcaffrey.ayudamexico.centers.gathering.model.CenterInteractor;
 import io.github.erikcaffrey.ayudamexico.hospitals.model.Hospital;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;

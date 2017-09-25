@@ -144,6 +144,12 @@
   <string name="lbl_announcement">AVISO</string>
   <string name="lbl_direction">DIRECCION</string>
   <string name="lbl_last_update">ULTIMA ACTUALIZACION</string>
+    <string name="common_phone">Teléfono</string>
+  <string name="common_address">Dirección</string>
+  <string name="center_asking">Pidiendo</string>
+  <string name="common_last_update">Última actualización</string>
+  <string name="common_map">Mapa</string>
+    <string name="disclaimer">Nos encontramos aún trabajando en la limpieza de la base de datos y es posible que algunos registros figuren sin información. Agradecemos su comprensión.</string>
 
 
 </resources>

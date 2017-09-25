@@ -1,4 +1,4 @@
-package io.github.erikcaffrey.ayudamexico.centers.model;
+package io.github.erikcaffrey.ayudamexico.centers.gathering.model;
 
 import io.github.erikcaffrey.ayudamexico.common.BaseRetrofitClient;
 import io.reactivex.Observable;

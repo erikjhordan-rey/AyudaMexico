@@ -1,4 +1,4 @@
-package io.github.erikcaffrey.ayudamexico.centers.model;
+package io.github.erikcaffrey.ayudamexico.centers.gathering.model;
 
 import com.google.gson.annotations.SerializedName;
 
