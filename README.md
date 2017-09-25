@@ -1,10 +1,12 @@
 # Ayuda México
-Respuesta rápida ante el terremoto de la CDMX http://bit.ly/TerremotoMX
+
+La ayuda que se necesita a donde se necesita. Todo verificado. Una comunidad civil para el alivio en momentos difíciles de nuestro país.
+categories
 
 
-![bandera-en-pie](https://user-images.githubusercontent.com/385670/30645087-3ddb7eb6-9dda-11e7-8ecd-17424b852299.jpg)
+![](./art/ayudam.png)
 
-# Terremoto en México
+# Sismos en México
 
 En septiembre 2017 sismos afectaron a diferentes partes de México.
 
@@ -24,12 +26,28 @@ necesitarla.
 Este proyecto podría ser usado como base para organizar una pronta respuesta en
 caso de desastres posteriores.
 
-## Aplicación en Play Store
+## Ayuda México en Google Play Store
+
+Con esta aplicación puedes encontrar todo la ayuda que necesitas:
+
+* Hospitales
+* Bancos de Sangre
+* Centros de Acopio
+* Visualizar en tiempo real donde se necesita ayuda
+* Telefonos
+* Areas Afectas en CDMX y Morelos
+* Localizador de Personas 
+* Avisos Importantes
+* Donaciones
+* Preguntas Frecuentes.
 
 ### [Aplicación Ayuda México](https://play.google.com/store/apps/details?id=io.github.erikcaffrey.ayudamexico)
 
 ![app-logo-store](https://lh3.googleusercontent.com/FigSnWqg61t1yoz4VOV9vy1GHwwebRB5f5sx6VOBxEMGqiieKzYG4NElhMmV9RDQTD4=w180-rw)
 
+### Recuerda dar like y compartir nuestra pagina en Facebook
+
+* [AyudaMx19](https://www.facebook.com/pg/AyudaMX19)
 
 License
 -------
