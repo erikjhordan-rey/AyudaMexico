@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help_info_high_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:alpha=".87"/>
+    <TextView
+        android:id="@+id/help_info_medium_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:alpha=".87"/>
+    <TextView
+        android:id="@+id/help_info_low_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:alpha=".87"/>
+    <TextView
+        android:id="@+id/help_info_other_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:alpha=".87"/>
+
+
+</LinearLayout>
