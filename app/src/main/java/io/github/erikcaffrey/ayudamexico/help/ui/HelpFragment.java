@@ -141,7 +141,11 @@ public class HelpFragment extends CoreFragment implements HelpPresenter.Ui {
         // display total number of results
         helpResultsTV.setText(new StringBuilder("Resultados: ").append(helpList.size()));
 
-        // count number of results per level of emergency (alto, medio, and bajo)
+        lowUrgency = 0;
+        mediumUrgency = 0;
+        highUrgency = 0;
+        otherUrgency = 0;
+
         for (Help help : helpList) {
             String urgency = help.getLevelOfUrgency();
             if (urgency != null) {
