@@ -45,9 +45,18 @@ Con esta aplicación puedes encontrar todo la ayuda que necesitas:
 
 ![app-logo-store](https://lh3.googleusercontent.com/FigSnWqg61t1yoz4VOV9vy1GHwwebRB5f5sx6VOBxEMGqiieKzYG4NElhMmV9RDQTD4=w180-rw)
 
-### Recuerda dar like y compartir nuestra pagina en Facebook
 
-* [AyudaMx19](https://www.facebook.com/pg/AyudaMX19)
+### AYUDA MÉXICO - Recuerda dar like y compartir 
+
+* [AyudaMx19 - Facebook](https://www.facebook.com/pg/AyudaMX19)
+* [Ayuda México en Revista Entrepreneur](https://www.entrepreneur.com/article/305964)
+* [Ayuda México en Sopitas](http://www.sopitas.com/796854-ayuda-mexico-app/)
+* [Ayuda México en Segundamano](https://www.segundamano.mx/sp/landing-fuerza-mexico/?xtor=ES-9075&utm_source=fb&utm_medium=organic&utm_campaign=fb_fuerzamexico)
+* [Ayuda México en Paréntesis.com](https://www.youtube.com/watch?v=Ea7-Iroyl-4&list=PL8DYt7DJ6q6j8JKTDUXD3_6UJVnNRBHLO)
+
+
+### GRACIAS A TODOS LOS COLABORADORES!!!
+
 
 License
 -------
